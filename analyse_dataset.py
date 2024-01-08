@@ -83,8 +83,9 @@ def show_top_syllables(data):
 
 def show_top_word(data):
     words = {}
-    with open("mot_top_count.txt", "w") as f:
-        for word, value in data.items():
+    with open("mot_top_count_reverse.txt", "w") as f:
+        dictionnaire_trie = dict(sorted(data.items(), key=lambda item: item[1]["count"], reverse=True))
+        for word, value in dictionnaire_trie.items():
             f.write(f"{word:<20} count={value['count']}\n")
         
 show_top_word(data)
