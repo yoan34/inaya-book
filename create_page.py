@@ -7,7 +7,6 @@ import os
 
 
 project_path = os.path.dirname(os.path.abspath(__file__))
-img_path = os.path.join(project_path, 'img/cha.png')
 font_path = os.path.join(project_path, 'fonts/static/Karla-Regular.ttf')
 
 # Chargez les données à partir du fichier JSON
@@ -20,10 +19,14 @@ result_filename = "book.html"
 env = Environment(loader=FileSystemLoader("templates/"))
 
 # Créez un nouveau template Jinja avec le contenu souhaité
-template = env.get_template("base_page.html")
-print(f"ABS: {img_path}")
+template = env.get_template("basic_page.html")
+
+
+data = {
+    "sentences": ["une pomme", "un pirate", "une chaise", "une maison", "un avion"]
+}
 # Remplissez le template avec les données chargées à partir du fichier JSON
-result = template.render(img_path=img_path, font_path=font_path)
+result = template.render(data=data, font_path=font_path)
 
 # Affichez le résultat
 with open(f"book/{result_filename}", "w") as file:
@@ -45,7 +48,7 @@ def run_cmd(command: str) -> str:
     return result.stdout
 
 
-run_cmd(f"firefox {result_filename}")
+run_cmd(f"firefox book/{result_filename}")
 options = {
     'enable-local-file-access': ''
 }

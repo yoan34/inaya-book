@@ -6,7 +6,7 @@
             font-family: 'Karla';
             font-style: normal;
             font-weight: 400;
-            src: url('/home/yoan/projects/inaya-book/fonts/static/Karla-Regular.ttf') format('truetype');
+            src: url('{{font_path}}') format('truetype');
           }
         .page {
             width: 1123px; /* Largeur d'une feuille A4 */
@@ -64,17 +64,9 @@
             <div>CHA</div>
         </div>
         <div class="page-right">
-          
-            <div>une pomme</div>
-          
-            <div>un pirate</div>
-          
-            <div>une chaise</div>
-          
-            <div>une maison</div>
-          
-            <div>un avion</div>
-          
+          {% for sentence in data["sentences"] %}
+            <div>{{ sentence }}</div>
+          {% endfor %}
         </div>
     </div>
 </body>
