@@ -24,7 +24,9 @@ class StoryParser:
         print(f"chargement spacy")
         for story in self.stories:
             if story["analyse"]:
+                print(f"{story['title']} already analyze.")
                 continue
+            print(f"{story['title']} Parsing...")
             story_words = []
             words = story["words"].split(' ')
             self.total_words_count += len(words)
@@ -41,10 +43,6 @@ class StoryParser:
             story["analyse"] = True
             story["words_count"] = len(words)
         
-        # known_words = self._get_known_words()
-        # print(f"[Known words] {list(known_words.keys())}")
-            
-            print(f"[Total new words] {story_words}")
             doc = nlp(' '.join(story_words))
             for token in doc:
                 if token.lemma_ not in self.dataset:
