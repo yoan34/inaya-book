@@ -1,0 +1,113 @@
+{
+  "un": {
+    "type": "DET",
+    "total_count": 4,
+    "possibilities": {
+      "un": {
+        "count": 2
+      },
+      "une": {
+        "count": 2
+      }
+    }
+  },
+  "prince": {
+    "type": "NOUN",
+    "total_count": 1,
+    "possibilities": {
+      "prince": {
+        "count": 1
+      }
+    }
+  },
+  "et": {
+    "type": "CCONJ",
+    "total_count": 2,
+    "possibilities": {
+      "et": {
+        "count": 2
+      }
+    }
+  },
+  "pomme": {
+    "type": "NOUN",
+    "total_count": 2,
+    "possibilities": {
+      "pomme": {
+        "count": 2
+      }
+    }
+  },
+  "château": {
+    "type": "NOUN",
+    "total_count": 1,
+    "possibilities": {
+      "château": {
+        "count": 1
+      }
+    }
+  },
+  "avec": {
+    "type": "ADP",
+    "total_count": 1,
+    "possibilities": {
+      "avec": {
+        "count": 1
+      }
+    }
+  },
+  "je": {
+    "type": "PRON",
+    "total_count": 2,
+    "possibilities": {
+      "je": {
+        "count": 2
+      }
+    }
+  },
+  "appeler": {
+    "type": "VERB",
+    "total_count": 2,
+    "possibilities": {
+      "appelle": {
+        "count": 2
+      }
+    }
+  },
+  "Albert": {
+    "type": "PROPN",
+    "total_count": 2,
+    "possibilities": {
+      "Albert": {
+        "count": 2
+      }
+    }
+  },
+  "habiter": {
+    "type": "VERB",
+    "total_count": 1,
+    "possibilities": {
+      "habite": {
+        "count": 1
+      }
+    }
+  },
+  "avoir": {
+    "type": "VERB",
+    "total_count": 1,
+    "possibilities": {
+      "a": {
+        "count": 1
+      }
+    }
+  },
+  "Toulouse": {
+    "type": "PROPN",
+    "total_count": 1,
+    "possibilities": {
+      "Toulouse": {
+        "count": 1
+      }
+    }
+  }
+}

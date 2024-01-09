@@ -1,0 +1,82 @@
+{
+    "un_une": {
+        "sentences": [
+            {
+                "fr": "une pomme",
+                "oci": "blablablablabl",
+                "data": [
+                    {
+                        "text": "u",
+                        "classname": "syllabe",
+                        "color": "orange"
+                    },
+                    {
+                        "text": "ne",
+                        "classname": "syllabe",
+                        "color": "blue"
+                    },
+                    {
+                        "text": "",
+                        "classname": "space",
+                        "color": "white"
+                    },
+                    {
+                        "text": "pom",
+                        "classname": "syllabe",
+                        "color": "yellow"
+                    },
+                    {
+                        "text": "me",
+                        "classname": "syllabe",
+                        "color": "blue"
+                    },
+                    {
+                        "text": "",
+                        "classname": "space",
+                        "color": "white"
+                    }
+                ]
+            }
+        ]
+    },
+    "ton_ta_tes": {
+        "sentences": [
+            {
+                "fr": "une pomme",
+                "oci": "blablablablabl",
+                "data": [
+                    {
+                        "text": "u",
+                        "classname": "syllabe",
+                        "color": "orange"
+                    },
+                    {
+                        "text": "ne",
+                        "classname": "syllabe",
+                        "color": "blue"
+                    },
+                    {
+                        "text": "",
+                        "classname": "space",
+                        "color": "white"
+                    },
+                    {
+                        "text": "pom",
+                        "classname": "syllabe",
+                        "color": "yellow"
+                    },
+                    {
+                        "text": "me",
+                        "classname": "syllabe",
+                        "color": "blue"
+                    },
+                    {
+                        "text": "",
+                        "classname": "space",
+                        "color": "white"
+                    }
+                ]
+            }
+        ]
+    }
+}

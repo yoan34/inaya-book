@@ -1,0 +1,33 @@
+[
+  {
+    "age": "2-3 ans",
+    "title": "histoire 1",
+    "author": "anne crausaz",
+    "analyse": true,
+    "words": "un prince et une pomme",
+    "words_count": 5
+  },
+  {
+    "age": "6 mois",
+    "title": "histoire 2",
+    "analyse": true,
+    "words": "un château avec une pomme",
+    "words_count": 5
+  },
+  {
+    "age": "4 ans",
+    "title": "histoire 3",
+    "author": "",
+    "analyse": true,
+    "words": "je m'appelle Albert",
+    "words_count": 3
+  },
+  {
+    "age": "4 ans",
+    "title": "histoire 3",
+    "author": "",
+    "analyse": true,
+    "words": "je m'appelle Albert et j'habite a Toulouse",
+    "words_count": 7
+  }
+]
