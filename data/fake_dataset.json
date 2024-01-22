@@ -2,7 +2,7 @@
   "un": {
     "type": "DET",
     "total_count": 4,
-    "possibilities": {
+    "variants": {
       "un": {
         "count": 2
       },
@@ -14,7 +14,7 @@
   "prince": {
     "type": "NOUN",
     "total_count": 1,
-    "possibilities": {
+    "variants": {
       "prince": {
         "count": 1
       }
@@ -23,7 +23,7 @@
   "et": {
     "type": "CCONJ",
     "total_count": 2,
-    "possibilities": {
+    "variants": {
       "et": {
         "count": 2
       }
@@ -32,7 +32,7 @@
   "pomme": {
     "type": "NOUN",
     "total_count": 2,
-    "possibilities": {
+    "variants": {
       "pomme": {
         "count": 2
       }
@@ -41,7 +41,7 @@
   "château": {
     "type": "NOUN",
     "total_count": 1,
-    "possibilities": {
+    "variants": {
       "château": {
         "count": 1
       }
@@ -50,7 +50,7 @@
   "avec": {
     "type": "ADP",
     "total_count": 1,
-    "possibilities": {
+    "variants": {
       "avec": {
         "count": 1
       }
@@ -59,7 +59,7 @@
   "je": {
     "type": "PRON",
     "total_count": 2,
-    "possibilities": {
+    "variants": {
       "je": {
         "count": 2
       }
@@ -68,7 +68,7 @@
   "appeler": {
     "type": "VERB",
     "total_count": 2,
-    "possibilities": {
+    "variants": {
       "appelle": {
         "count": 2
       }
@@ -77,7 +77,7 @@
   "Albert": {
     "type": "PROPN",
     "total_count": 2,
-    "possibilities": {
+    "variants": {
       "Albert": {
         "count": 2
       }
@@ -86,7 +86,7 @@
   "habiter": {
     "type": "VERB",
     "total_count": 1,
-    "possibilities": {
+    "variants": {
       "habite": {
         "count": 1
       }
@@ -95,7 +95,7 @@
   "avoir": {
     "type": "VERB",
     "total_count": 1,
-    "possibilities": {
+    "variants": {
       "a": {
         "count": 1
       }
@@ -104,7 +104,7 @@
   "Toulouse": {
     "type": "PROPN",
     "total_count": 1,
-    "possibilities": {
+    "variants": {
       "Toulouse": {
         "count": 1
       }
