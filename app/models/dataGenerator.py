@@ -184,18 +184,18 @@ class DataGenerator:
                 return Color.E_AIGU.value
         if 'es' == syllabe:
             return Color.E_AIGU.value
-        for homophone in ['as', 'ah', 'ha', 'a']:
+        for homophone in ['oh', 'ho', 'eau', 'au', 'o', 'ô']:
+            if homophone in syllabe:
+                return Color.O.value
+        for homophone in ['as', 'ah', 'ha', 'a', 'à', 'â']:
             if homophone in syllabe:
                 return Color.A.value
         for homophone in ['ie', 'y', 'is', 'it', 'i']:
             if homophone in syllabe:
                 return Color.I.value
-        for homophone in ['ent', 'es', 'e']:
+        for homophone in ['ent', 'es', 'e', 'è', 'ê']:
             if homophone in syllabe:
                 return Color.E.value
-        for homophone in ['oh', 'ho', 'eau', 'au', 'o']:
-            if homophone in syllabe:
-                return Color.O.value
         if 'ou' in syllabe:
             return Color.OU.value
         if 'u' in syllabe:
@@ -211,6 +211,9 @@ class DataGenerator:
             for i, word in enumerate(words):
                 syllabes = self._get_syllabes(word)
                 for syllabe in syllabes.split('-'):
+                    # CHECK SI GROSSE SYLLABE DECOUPABLE
+                    if syllabe in ["lier", "blier", "tier", "mion"]:
+                        pass
                     color = self._get_color(syllabe)
                     item["data"].append({"text": syllabe, "classname": "syllabe", "color": color})
                 if i + 1 != len(words):
@@ -287,6 +290,12 @@ if __name__ == "__main__":
     # THIRD_PERSON_POSSESSIVE_ADJECTIVES = (["son", "sa", "ses"], "ADJECTIFS POSSESSIFS TROISIEME PERSONNE")
     # PLURAL_POSSESSIVE_ADJECTIVES = (["notre", "votre", "leur"], "ADJECTIFS POSSESSIFS PLURIEL")
     
+    
+    # PROBLEME DES SYLLABE QUI POUR MOI DEVRAIT ETRE ENCORE DIVISER:
+    # -MION --> -MI-ON
+    # -LIER --> -LI-ER
+    # -BLIER -> BLI-ER
+    # -TIER --> TI-ER
 
     
     

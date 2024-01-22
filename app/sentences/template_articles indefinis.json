@@ -202,7 +202,7 @@
       {
         "text": "tê",
         "classname": "syllabe",
-        "color": null
+        "color": "blue"
       },
       {
         "text": "te",
@@ -238,7 +238,7 @@
       {
         "text": "rè",
         "classname": "syllabe",
-        "color": null
+        "color": "blue"
       },
       {
         "text": "ne",
@@ -299,276 +299,6 @@
       },
       {
         "text": "dent",
-        "classname": "syllabe",
-        "color": "blue"
-      }
-    ]
-  },
-  {
-    "fr": "des princes",
-    "oci": "dels princes",
-    "data": [
-      {
-        "text": "des",
-        "classname": "syllabe",
-        "color": "blue"
-      },
-      {
-        "text": "",
-        "classname": "space",
-        "color": "white"
-      },
-      {
-        "text": "prin",
-        "classname": "syllabe",
-        "color": "green"
-      },
-      {
-        "text": "ces",
-        "classname": "syllabe",
-        "color": "blue"
-      }
-    ]
-  },
-  {
-    "fr": "des pirates",
-    "oci": "dels piratas",
-    "data": [
-      {
-        "text": "des",
-        "classname": "syllabe",
-        "color": "blue"
-      },
-      {
-        "text": "",
-        "classname": "space",
-        "color": "white"
-      },
-      {
-        "text": "pi",
-        "classname": "syllabe",
-        "color": "green"
-      },
-      {
-        "text": "ra",
-        "classname": "syllabe",
-        "color": "pink"
-      },
-      {
-        "text": "tes",
-        "classname": "syllabe",
-        "color": "blue"
-      }
-    ]
-  },
-  {
-    "fr": "des papas",
-    "oci": "dels papàs",
-    "data": [
-      {
-        "text": "des",
-        "classname": "syllabe",
-        "color": "blue"
-      },
-      {
-        "text": "",
-        "classname": "space",
-        "color": "white"
-      },
-      {
-        "text": "pa",
-        "classname": "syllabe",
-        "color": "pink"
-      },
-      {
-        "text": "pas",
-        "classname": "syllabe",
-        "color": "pink"
-      }
-    ]
-  },
-  {
-    "fr": "des nuits",
-    "oci": "de las nuèchs",
-    "data": [
-      {
-        "text": "des",
-        "classname": "syllabe",
-        "color": "blue"
-      },
-      {
-        "text": "",
-        "classname": "space",
-        "color": "white"
-      },
-      {
-        "text": "nuits",
-        "classname": "syllabe",
-        "color": "green"
-      }
-    ]
-  },
-  {
-    "fr": "des sorcières",
-    "oci": "de las mascas",
-    "data": [
-      {
-        "text": "des",
-        "classname": "syllabe",
-        "color": "blue"
-      },
-      {
-        "text": "",
-        "classname": "space",
-        "color": "white"
-      },
-      {
-        "text": "sor",
-        "classname": "syllabe",
-        "color": "yellow"
-      },
-      {
-        "text": "ciè",
-        "classname": "syllabe",
-        "color": "green"
-      },
-      {
-        "text": "res",
-        "classname": "syllabe",
-        "color": "blue"
-      }
-    ]
-  },
-  {
-    "fr": "des princesses",
-    "oci": "de las princessas",
-    "data": [
-      {
-        "text": "des",
-        "classname": "syllabe",
-        "color": "blue"
-      },
-      {
-        "text": "",
-        "classname": "space",
-        "color": "white"
-      },
-      {
-        "text": "prin",
-        "classname": "syllabe",
-        "color": "green"
-      },
-      {
-        "text": "ces",
-        "classname": "syllabe",
-        "color": "blue"
-      },
-      {
-        "text": "ses",
-        "classname": "syllabe",
-        "color": "blue"
-      }
-    ]
-  },
-  {
-    "fr": "des têtes",
-    "oci": "dels caps",
-    "data": [
-      {
-        "text": "des",
-        "classname": "syllabe",
-        "color": "blue"
-      },
-      {
-        "text": "",
-        "classname": "space",
-        "color": "white"
-      },
-      {
-        "text": "tê",
-        "classname": "syllabe",
-        "color": null
-      },
-      {
-        "text": "tes",
-        "classname": "syllabe",
-        "color": "blue"
-      }
-    ]
-  },
-  {
-    "fr": "des sirènes",
-    "oci": "de las serenas",
-    "data": [
-      {
-        "text": "des",
-        "classname": "syllabe",
-        "color": "blue"
-      },
-      {
-        "text": "",
-        "classname": "space",
-        "color": "white"
-      },
-      {
-        "text": "si",
-        "classname": "syllabe",
-        "color": "green"
-      },
-      {
-        "text": "rè",
-        "classname": "syllabe",
-        "color": null
-      },
-      {
-        "text": "nes",
-        "classname": "syllabe",
-        "color": "blue"
-      }
-    ]
-  },
-  {
-    "fr": "des mamans",
-    "oci": "de las mamàs",
-    "data": [
-      {
-        "text": "des",
-        "classname": "syllabe",
-        "color": "blue"
-      },
-      {
-        "text": "",
-        "classname": "space",
-        "color": "white"
-      },
-      {
-        "text": "ma",
-        "classname": "syllabe",
-        "color": "pink"
-      },
-      {
-        "text": "mans",
-        "classname": "syllabe",
-        "color": "pink"
-      }
-    ]
-  },
-  {
-    "fr": "des dents",
-    "oci": "de las dents",
-    "data": [
-      {
-        "text": "des",
-        "classname": "syllabe",
-        "color": "blue"
-      },
-      {
-        "text": "",
-        "classname": "space",
-        "color": "white"
-      },
-      {
-        "text": "dents",
         "classname": "syllabe",
         "color": "blue"
       }
@@ -804,12 +534,12 @@
       {
         "text": "châ",
         "classname": "syllabe",
-        "color": null
+        "color": "pink"
       },
       {
         "text": "teau",
         "classname": "syllabe",
-        "color": "pink"
+        "color": "yellow"
       }
     ]
   },
@@ -882,7 +612,7 @@
       {
         "text": "teau",
         "classname": "syllabe",
-        "color": "pink"
+        "color": "yellow"
       }
     ]
   },
@@ -1095,7 +825,7 @@
       {
         "text": "eau",
         "classname": "syllabe",
-        "color": "pink"
+        "color": "yellow"
       }
     ]
   },
@@ -1251,7 +981,7 @@
       {
         "text": "tô",
         "classname": "syllabe",
-        "color": null
+        "color": "yellow"
       },
       {
         "text": "me",
@@ -1484,7 +1214,7 @@
       {
         "text": "rêt",
         "classname": "syllabe",
-        "color": null
+        "color": "blue"
       }
     ]
   },
@@ -1536,7 +1266,7 @@
       {
         "text": "seau",
         "classname": "syllabe",
-        "color": "pink"
+        "color": "yellow"
       }
     ]
   },
@@ -1588,7 +1318,7 @@
       {
         "text": "nê",
         "classname": "syllabe",
-        "color": null
+        "color": "blue"
       },
       {
         "text": "tre",
@@ -1702,7 +1432,7 @@
       {
         "text": "deau",
         "classname": "syllabe",
-        "color": "pink"
+        "color": "yellow"
       }
     ]
   },
@@ -1764,7 +1494,7 @@
       {
         "text": "pau",
         "classname": "syllabe",
-        "color": "pink"
+        "color": "yellow"
       },
       {
         "text": "le",
@@ -1915,12 +1645,12 @@
       {
         "text": "gâ",
         "classname": "syllabe",
-        "color": null
+        "color": "pink"
       },
       {
         "text": "teau",
         "classname": "syllabe",
-        "color": "pink"
+        "color": "yellow"
       }
     ]
   },
@@ -2309,7 +2039,7 @@
       {
         "text": "î",
         "classname": "syllabe",
-        "color": null
+        "color": "green"
       },
       {
         "text": "le",
@@ -3064,7 +2794,7 @@
       {
         "text": "reau",
         "classname": "syllabe",
-        "color": "pink"
+        "color": "yellow"
       }
     ]
   },
@@ -3561,7 +3291,7 @@
       {
         "text": "lè",
         "classname": "syllabe",
-        "color": null
+        "color": "blue"
       },
       {
         "text": "vre",
