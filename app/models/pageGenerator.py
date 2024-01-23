@@ -20,6 +20,27 @@ class PageGenerator:
         self.font_path = os.path.join(project_path, 'src/fonts/static/Karla-Regular.ttf')
         self.env = Environment(loader=FileSystemLoader(os.path.join(project_path, "templates")))
         
+    def create_page_img(self):
+        template = self.env.get_template("page_img.html")
+        imgs = os.listdir("app/src/img/nouns")
+        abs_path = os.path.dirname(os.path.dirname(__file__))
+        data = []
+        for img in imgs:
+            name = img.split('.')[0]
+
+            data.append({"name": name, "path": f"{abs_path}/src/img/nouns/{img}", "pixel": len(name)*20})
+        result_path = "book/pages/img"
+        print(data)
+        result = template.render(data=data, font_path=self.font_path)
+        
+        num = self._get_num(result_path)
+                
+        # JUST FOR TESTING DIRECT HTML FILE
+        with open(f'{result_path}/{num}.html', 'w') as f:
+            f.write(result)
+            subprocess.run(["firefox", f'{result_path}/{num}.html'])
+        
+        
     def create_page(self, category: GrammaticalCategory, is_header=False):
         template = self.env.get_template(f"{'header' if is_header else 'normal'}_page.html")
         sentences = self._get_sentences(category=category)
@@ -34,12 +55,7 @@ class PageGenerator:
         # Remplissez le template avec les données chargées à partir du fichiesr JSON
         result = template.render(data=data, font_path=self.font_path)
         result_path = f"book/pages/{category.fr.lower()}"
-        if not os.path.exists(result_path):
-            num = 1
-            os.makedirs(result_path)
-        else:
-            files = os.listdir(result_path)
-            num = max(list(map(int, [file.split('.')[0] for file in files]))) + 1
+        num = self._get_num(result_path)
         
         # JUST FOR TESTING DIRECT HTML FILE
         with open(f'{result_path}/{num}.html', 'w') as f:
@@ -47,6 +63,16 @@ class PageGenerator:
             subprocess.run(["firefox", f'{result_path}/{num}.html'])
             
         pdfkit.from_string(''.join([result]), f'{result_path}/{num}.pdf', options={'enable-local-file-access': ''})
+        
+    
+    def _get_num(self, path):
+        if not os.path.exists(path):
+            num = 1
+            os.makedirs(path)
+        else:
+            files = os.listdir(path)
+            num = max(list(map(int, [file.split('.')[0] for file in files]))) + 1
+        return num
             
     def _get_sentences(self, category: GrammaticalCategory, n=20):
         sentences = []
@@ -61,9 +87,11 @@ class PageGenerator:
 
 if __name__ == "__main__":
     pg = PageGenerator()
-    r = pg.create_page(GrammaticalCategory.INDEFINITE_ARTICLES, is_header=True)
+    r = pg.create_page_img()
     # je dois stocker les datas qui sont traduit et découpé
     # créer une fonction qui récupère les données au lieu de généré + template
+    
+    # r = pg.create_page(GrammaticalCategory.INDEFINITE_ARTICLES, is_header=True)
     
 
     

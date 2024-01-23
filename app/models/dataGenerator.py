@@ -210,7 +210,7 @@ class DataGenerator:
             words = sentence.split(' ')
             for i, word in enumerate(words):
                 syllabes = self._get_syllabes(word)
-                for syllabe in syllabes.split('-'):
+                for syllabe in self._split_syllabes(syllabes):
                     # CHECK SI GROSSE SYLLABE DECOUPABLE
                     if syllabe in ["lier", "blier", "tier", "mion"]:
                         pass
@@ -223,6 +223,21 @@ class DataGenerator:
             print(f"sentence {ind+1}/{len(sentences)} done in {(t2-t1):.2f}s")
         with open(f"app/sentences/template_{category.fr.lower()}.json", "w") as f:
             json.dump(result, f, ensure_ascii=False, indent=2)
+        return result
+    
+    def _split_syllabes(self, syllabes):
+        result = []
+        syllabes = syllabes.split('-')
+        for syllabe in syllabes:
+            if syllabe.endswith("ier"):
+                first_syl = syllabe.split('er')[0]
+                result += [first_syl, "er"]
+                continue
+            if syllabe.endswith("ion"):
+                first_syl = syllabe.split('on')[0]
+                result += [first_syl, "on"]
+                continue
+            result.append(syllabe)
         return result
     
     def _get_sentences(self, category: str):
@@ -241,7 +256,12 @@ class DataGenerator:
                 "target_language": "oci"
             }
             response = requests.post("https://api.revirada.eu/translate_string", data=body)
-            return response.json()["translated_text"]
+            if response.status_code == 500:
+                print("ERROR SERVER")
+                return ""
+            response = response.json()
+            print(f"traduit en {response['translation_time']}s")
+            return response["translated_text"]
         except Exception as e:
             print(f"ERROR ON TRANSLATE OCI: {e}")
             
@@ -279,7 +299,7 @@ if __name__ == "__main__":
     
     # Cette fonction permet de récupérer tous les phrases dans le fichier 'indefinite articles.json'
     # et de créer un autre fichier qui se termine par 'template' formmater pour le html.
-    data_generator.format_sentence_for_template(GrammaticalCategory.PLURAL_POSSESSIVE_ADJECTIVES)
+    data_generator.format_sentence_for_template(GrammaticalCategory.FIRST_PERSON_POSSESSIVE_ADJECTIVES)
     
     # INDEFINITE_ARTICLES = (["un", "une"], "ARTICLES INDEFINIS")
     # PARTITIVE_ARTICLES = (["de", "du", "des"], "ARTICLES PARTITIFS")
@@ -290,12 +310,6 @@ if __name__ == "__main__":
     # THIRD_PERSON_POSSESSIVE_ADJECTIVES = (["son", "sa", "ses"], "ADJECTIFS POSSESSIFS TROISIEME PERSONNE")
     # PLURAL_POSSESSIVE_ADJECTIVES = (["notre", "votre", "leur"], "ADJECTIFS POSSESSIFS PLURIEL")
     
-    
-    # PROBLEME DES SYLLABE QUI POUR MOI DEVRAIT ETRE ENCORE DIVISER:
-    # -MION --> -MI-ON
-    # -LIER --> -LI-ER
-    # -BLIER -> BLI-ER
-    # -TIER --> TI-ER
 
     
     

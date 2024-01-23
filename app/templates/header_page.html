@@ -54,18 +54,26 @@
             position: relative;
             z-index: 2;
         }
-        .sentence_even, .sentence_odd {
+        .sentence_body {
             display: flex;
-            flex-direction: row;
+            flex-direction: column;
         }
-        .sentence_even {
-            align-self: flex-start;
+        .sentence_body:nth-child(even) {
+            align-self: start;
         }
-        .sentence_odd {
-            align-self: flex-end;
+        .sentence_body:nth-child(odd) {
+            align-self: end;
         }
+        .sentence {
+            display: flex;
+        }
+        .sentence_oci {
+            font-size: 18px;
+            font-family: 'Karla', sans-serif;
+        }
+
         .space {
-            margin: 0 10px;
+            margin: 0 12px;
         }
         .mot {
             background-color: white;
@@ -107,11 +115,8 @@
         </div>
         <div class="page-right">
           {% for sentence in data["sentences_right"] %}
-            {% if loop.index % 2 == 0 %}
-            <div class="sentence_even">
-            {% else %}
-            <div class="sentence_odd">
-            {% endif %}
+          <div class="sentence_body">
+            <div class="sentence">
             {% for item in sentence['data'] %}
                 {% if item['text'] == "" %}
                     <div class={{ item["classname"] }}></div>
@@ -120,8 +125,11 @@
                 {% endif %}
             {% endfor %}
             </div>
-          {% endfor %}
-        </div>
+            <div class="sentence_oci">{{ sentence["oci"] }}</div>
+            </div>
+            {% endfor %}
+          </div>
+          
     </div>
 </body>
 </html>

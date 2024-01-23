@@ -202,7 +202,7 @@
       {
         "text": "tê",
         "classname": "syllabe",
-        "color": null
+        "color": "blue"
       },
       {
         "text": "te",
@@ -238,7 +238,7 @@
       {
         "text": "rè",
         "classname": "syllabe",
-        "color": null
+        "color": "blue"
       },
       {
         "text": "ne",
@@ -487,7 +487,7 @@
       {
         "text": "tê",
         "classname": "syllabe",
-        "color": null
+        "color": "blue"
       },
       {
         "text": "tes",
@@ -518,7 +518,7 @@
       {
         "text": "rè",
         "classname": "syllabe",
-        "color": null
+        "color": "blue"
       },
       {
         "text": "nes",
@@ -617,12 +617,12 @@
       {
         "text": "châ",
         "classname": "syllabe",
-        "color": null
+        "color": "pink"
       },
       {
         "text": "teau",
         "classname": "syllabe",
-        "color": "pink"
+        "color": "yellow"
       }
     ]
   },
@@ -669,7 +669,7 @@
       {
         "text": "oeil",
         "classname": "syllabe",
-        "color": "green"
+        "color": "yellow"
       }
     ]
   },
@@ -971,12 +971,12 @@
       {
         "text": "châ",
         "classname": "syllabe",
-        "color": null
+        "color": "pink"
       },
       {
         "text": "teaux",
         "classname": "syllabe",
-        "color": "pink"
+        "color": "yellow"
       }
     ]
   },
@@ -1049,7 +1049,7 @@
       {
         "text": "teau",
         "classname": "syllabe",
-        "color": "pink"
+        "color": "yellow"
       }
     ]
   },
@@ -1070,7 +1070,7 @@
       {
         "text": "roi",
         "classname": "syllabe",
-        "color": "green"
+        "color": "yellow"
       }
     ]
   },
@@ -1120,9 +1120,14 @@
         "color": "pink"
       },
       {
-        "text": "lier",
+        "text": "li",
         "classname": "syllabe",
         "color": "green"
+      },
+      {
+        "text": "er",
+        "classname": "syllabe",
+        "color": "blue"
       }
     ]
   },
@@ -1236,7 +1241,7 @@
       {
         "text": "eau",
         "classname": "syllabe",
-        "color": "pink"
+        "color": "yellow"
       }
     ]
   },
@@ -1309,7 +1314,7 @@
       {
         "text": "teaux",
         "classname": "syllabe",
-        "color": "pink"
+        "color": "yellow"
       }
     ]
   },
@@ -1330,7 +1335,7 @@
       {
         "text": "rois",
         "classname": "syllabe",
-        "color": "green"
+        "color": "yellow"
       }
     ]
   },
@@ -1590,7 +1595,7 @@
       {
         "text": "garçon",
         "classname": "syllabe",
-        "color": "pink"
+        "color": "yellow"
       }
     ]
   },
@@ -1616,7 +1621,7 @@
       {
         "text": "tô",
         "classname": "syllabe",
-        "color": null
+        "color": "yellow"
       },
       {
         "text": "me",
@@ -1860,7 +1865,7 @@
       {
         "text": "garçons",
         "classname": "syllabe",
-        "color": "pink"
+        "color": "yellow"
       }
     ]
   },
@@ -1886,7 +1891,7 @@
       {
         "text": "tô",
         "classname": "syllabe",
-        "color": null
+        "color": "yellow"
       },
       {
         "text": "mes",
@@ -2151,7 +2156,7 @@
       {
         "text": "rêt",
         "classname": "syllabe",
-        "color": null
+        "color": "blue"
       }
     ]
   },
@@ -2177,7 +2182,7 @@
       {
         "text": "rêts",
         "classname": "syllabe",
-        "color": null
+        "color": "blue"
       }
     ]
   },
@@ -2250,12 +2255,12 @@
       {
         "text": "oi",
         "classname": "syllabe",
-        "color": "green"
+        "color": "yellow"
       },
       {
         "text": "seau",
         "classname": "syllabe",
-        "color": "pink"
+        "color": "yellow"
       }
     ]
   },
@@ -2276,12 +2281,12 @@
       {
         "text": "oi",
         "classname": "syllabe",
-        "color": "green"
+        "color": "yellow"
       },
       {
         "text": "seaux",
         "classname": "syllabe",
-        "color": "pink"
+        "color": "yellow"
       }
     ]
   },
@@ -2354,7 +2359,7 @@
       {
         "text": "nê",
         "classname": "syllabe",
-        "color": null
+        "color": "blue"
       },
       {
         "text": "tre",
@@ -2385,7 +2390,7 @@
       {
         "text": "nê",
         "classname": "syllabe",
-        "color": null
+        "color": "blue"
       },
       {
         "text": "tres",
@@ -2520,7 +2525,7 @@
       {
         "text": "pois",
         "classname": "syllabe",
-        "color": "green"
+        "color": "yellow"
       },
       {
         "text": "son",
@@ -2551,7 +2556,7 @@
       {
         "text": "deau",
         "classname": "syllabe",
-        "color": "pink"
+        "color": "yellow"
       }
     ]
   },
@@ -2639,7 +2644,7 @@
       {
         "text": "pau",
         "classname": "syllabe",
-        "color": "pink"
+        "color": "yellow"
       },
       {
         "text": "le",
@@ -2696,7 +2701,7 @@
       {
         "text": "pois",
         "classname": "syllabe",
-        "color": "green"
+        "color": "yellow"
       },
       {
         "text": "sons",
@@ -2727,7 +2732,7 @@
       {
         "text": "deaux",
         "classname": "syllabe",
-        "color": "pink"
+        "color": "yellow"
       }
     ]
   },
@@ -2805,7 +2810,7 @@
       {
         "text": "pau",
         "classname": "syllabe",
-        "color": "pink"
+        "color": "yellow"
       },
       {
         "text": "les",
@@ -2904,12 +2909,12 @@
       {
         "text": "gâ",
         "classname": "syllabe",
-        "color": null
+        "color": "pink"
       },
       {
         "text": "teau",
         "classname": "syllabe",
-        "color": "pink"
+        "color": "yellow"
       }
     ]
   },
@@ -2930,12 +2935,12 @@
       {
         "text": "gâ",
         "classname": "syllabe",
-        "color": null
+        "color": "pink"
       },
       {
         "text": "teaux",
         "classname": "syllabe",
-        "color": "pink"
+        "color": "yellow"
       }
     ]
   },
@@ -2998,7 +3003,7 @@
       {
         "text": "bois",
         "classname": "syllabe",
-        "color": "green"
+        "color": "yellow"
       }
     ]
   },
@@ -3179,7 +3184,7 @@
       {
         "text": "coeurs",
         "classname": "syllabe",
-        "color": "blue"
+        "color": "yellow"
       }
     ]
   },
@@ -3794,9 +3799,14 @@
         "color": "pink"
       },
       {
-        "text": "mion",
+        "text": "mi",
         "classname": "syllabe",
         "color": "green"
+      },
+      {
+        "text": "on",
+        "classname": "syllabe",
+        "color": "yellow"
       }
     ]
   },
@@ -4029,7 +4039,7 @@
       {
         "text": "vaux",
         "classname": "syllabe",
-        "color": "pink"
+        "color": "yellow"
       }
     ]
   },
@@ -4154,7 +4164,7 @@
       {
         "text": "mions",
         "classname": "syllabe",
-        "color": "green"
+        "color": "yellow"
       }
     ]
   },
@@ -4346,7 +4356,7 @@
       {
         "text": "trouil",
         "classname": "syllabe",
-        "color": "green"
+        "color": "yellow"
       },
       {
         "text": "le",
@@ -4408,7 +4418,7 @@
       {
         "text": "reau",
         "classname": "syllabe",
-        "color": "pink"
+        "color": "yellow"
       }
     ]
   },
@@ -4626,7 +4636,7 @@
       {
         "text": "oeuf",
         "classname": "syllabe",
-        "color": "blue"
+        "color": "yellow"
       }
     ]
   },
@@ -4719,7 +4729,7 @@
       {
         "text": "toi",
         "classname": "syllabe",
-        "color": "green"
+        "color": "yellow"
       },
       {
         "text": "le",
@@ -4890,7 +4900,7 @@
       {
         "text": "oeufs",
         "classname": "syllabe",
-        "color": "blue"
+        "color": "yellow"
       }
     ]
   },
@@ -4973,7 +4983,7 @@
       {
         "text": "toi",
         "classname": "syllabe",
-        "color": "green"
+        "color": "yellow"
       },
       {
         "text": "les",
@@ -5116,9 +5126,14 @@
         "color": "pink"
       },
       {
-        "text": "lier",
+        "text": "li",
         "classname": "syllabe",
         "color": "green"
+      },
+      {
+        "text": "er",
+        "classname": "syllabe",
+        "color": "blue"
       }
     ]
   },
@@ -5206,7 +5221,7 @@
       {
         "text": "lè",
         "classname": "syllabe",
-        "color": null
+        "color": "blue"
       },
       {
         "text": "vre",
@@ -5268,7 +5283,7 @@
       {
         "text": "noix",
         "classname": "syllabe",
-        "color": "green"
+        "color": "yellow"
       }
     ]
   },
@@ -5372,7 +5387,7 @@
       {
         "text": "lè",
         "classname": "syllabe",
-        "color": null
+        "color": "blue"
       },
       {
         "text": "vres",
