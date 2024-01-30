@@ -86,7 +86,13 @@ class StoryParser:
     def _save_stories(self):
         with open(f"data/{self.stories_name}.json", "w", encoding='utf-8') as f:
             json.dump(self.stories, f, ensure_ascii=False, indent=2)
-            
+         
+    def parse_nouns_with_image(self):
+        path = os.path.dirname(os.path.dirname(__file__))
+        nouns = os.listdir(f"{path}/src/img/nouns")
+        nouns = [noun.split('.')[0] for noun in nouns]
+        print(nouns)
+
     # REPORT METHODS
     # - créer rapport pour avoir tous les noms
     
@@ -108,7 +114,6 @@ class StoryParser:
             os.makedirs(new_path)
         return os.path.join(new_path, filename)
         
-
     def get_word_in_dataset(self, word_type: WordType, only_lemma=True):
         words = []
         for lemma, values in self.dataset.items():
@@ -122,7 +127,7 @@ class StoryParser:
             
 if __name__ == "__main__":
     story_parser = StoryParser("fake_stories", "fake_dataset")
-    story_parser.create_report_of_word_type(WordType.NOUN)
+    story_parser.parse_nouns_with_image()
     
 
     

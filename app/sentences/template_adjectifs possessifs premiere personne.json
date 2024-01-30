@@ -1,0 +1,5550 @@
+{
+  "header_words": [
+    {
+      "fr": "mes",
+      "oci": "mos",
+      "data": [
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "ma",
+      "oci": "ma",
+      "data": [
+        {
+          "text": "ma",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mon",
+      "oci": "ma",
+      "data": [
+        {
+          "text": "mon",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "fr": "mes princes",
+      "oci": "mos princes",
+      "data": [
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "prin",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "ces",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mes pirates",
+      "oci": "mos piratas",
+      "data": [
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "pi",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "ra",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "tes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mes papas",
+      "oci": "mos papàs",
+      "data": [
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "pa",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "pas",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mes sorcières",
+      "oci": "mas mascas",
+      "data": [
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "sor",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "ciè",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "res",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mes princesses",
+      "oci": "mas princessas",
+      "data": [
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "prin",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "ces",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "ses",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mes sirènes",
+      "oci": "mas serenas",
+      "data": [
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "si",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "rè",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "nes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mes mamans",
+      "oci": "mas mamàs",
+      "data": [
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "ma",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "mans",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mon prince",
+      "oci": "mon prince",
+      "data": [
+        {
+          "text": "mon",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "prin",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "ce",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mon pirate",
+      "oci": "mon pirata",
+      "data": [
+        {
+          "text": "mon",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "pi",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "ra",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "te",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mon papa",
+      "oci": "mon papà",
+      "data": [
+        {
+          "text": "mon",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "pa",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "pa",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "ma pirate",
+      "oci": "ma pirata",
+      "data": [
+        {
+          "text": "ma",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "pi",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "ra",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "te",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "ma sorcière",
+      "oci": "ma masca",
+      "data": [
+        {
+          "text": "ma",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "sor",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "ciè",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "re",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "ma princesse",
+      "oci": "ma princessa",
+      "data": [
+        {
+          "text": "ma",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "prin",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "ces",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "se",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "ma sirène",
+      "oci": "ma serena",
+      "data": [
+        {
+          "text": "ma",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "si",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "rè",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "ne",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "ma maman",
+      "oci": "ma mamà",
+      "data": [
+        {
+          "text": "ma",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "ma",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "man",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mes maisons",
+      "oci": "mos ostals",
+      "data": [
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "mai",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": false
+        },
+        {
+          "text": "sons",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mes filles",
+      "oci": "mas filhas",
+      "data": [
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "fil",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "les",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mes ours",
+      "oci": "mos orses",
+      "data": [
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "ours",
+          "classname": "syllabe",
+          "color": "red",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mes yeux",
+      "oci": "mos uèlhs",
+      "data": [
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "yeux",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mes portes",
+      "oci": "mas pòrtas",
+      "data": [
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "por",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "tes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mes hommes",
+      "oci": "mos òmes",
+      "data": [
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "hom",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mes mains",
+      "oci": "mas mans",
+      "data": [
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "mains",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mes bébés",
+      "oci": "mos nenets",
+      "data": [
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "bé",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": false
+        },
+        {
+          "text": "bés",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mon ours",
+      "oci": "mon ors",
+      "data": [
+        {
+          "text": "mon",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "ours",
+          "classname": "syllabe",
+          "color": "red",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mon oeil",
+      "oci": "mon uèlh",
+      "data": [
+        {
+          "text": "mon",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "oeil",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mon homme",
+      "oci": "mon òme",
+      "data": [
+        {
+          "text": "mon",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "hom",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "me",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mon bébé",
+      "oci": "mon nenet",
+      "data": [
+        {
+          "text": "mon",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "bé",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": false
+        },
+        {
+          "text": "bé",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "ma maison",
+      "oci": "mon ostal",
+      "data": [
+        {
+          "text": "ma",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "mai",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": false
+        },
+        {
+          "text": "son",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "ma fille",
+      "oci": "ma filha",
+      "data": [
+        {
+          "text": "ma",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "fil",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "le",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "ma porte",
+      "oci": "ma pòrta",
+      "data": [
+        {
+          "text": "ma",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "por",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "te",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "ma main",
+      "oci": "ma man",
+      "data": [
+        {
+          "text": "ma",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "main",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mes femmes",
+      "oci": "mas femnas",
+      "data": [
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "fem",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mes lits",
+      "oci": "mos lièches",
+      "data": [
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "lits",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mes rois",
+      "oci": "mos reis",
+      "data": [
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "rois",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mes enfants",
+      "oci": "mos mainatges",
+      "data": [
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "en",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "fants",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mes fées",
+      "oci": "mas fadas",
+      "data": [
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "fées",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mes loups",
+      "oci": "mos lops",
+      "data": [
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "loups",
+          "classname": "syllabe",
+          "color": "red",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mes chevaliers",
+      "oci": "mos cavalièrs",
+      "data": [
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "che",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "va",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "liers",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mes perroquets",
+      "oci": "mos papagais",
+      "data": [
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "per",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": false
+        },
+        {
+          "text": "ro",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "quets",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mon lit",
+      "oci": "mon lièch",
+      "data": [
+        {
+          "text": "mon",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "lit",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mon roi",
+      "oci": "mon rei",
+      "data": [
+        {
+          "text": "mon",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "roi",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mon enfant",
+      "oci": "ma mainatja",
+      "data": [
+        {
+          "text": "mon",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "en",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "fant",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mon loup",
+      "oci": "mon lop",
+      "data": [
+        {
+          "text": "mon",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "loup",
+          "classname": "syllabe",
+          "color": "red",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mon chevalier",
+      "oci": "mon cavalièr",
+      "data": [
+        {
+          "text": "mon",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "che",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "va",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "li",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "er",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": true
+        }
+      ]
+    },
+    {
+      "fr": "mon perroquet",
+      "oci": "mon papagai",
+      "data": [
+        {
+          "text": "mon",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "per",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": false
+        },
+        {
+          "text": "ro",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "quet",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "ma femme",
+      "oci": "ma femna",
+      "data": [
+        {
+          "text": "ma",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "fem",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "me",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "ma fée",
+      "oci": "ma fada",
+      "data": [
+        {
+          "text": "ma",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "fée",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mes sacs",
+      "oci": "mos sacs",
+      "data": [
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "sacs",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mon sac",
+      "oci": "mon sac",
+      "data": [
+        {
+          "text": "mon",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "sac",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mes monstres",
+      "oci": "mos mostres",
+      "data": [
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "mons",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "tres",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mon monstre",
+      "oci": "mon mostre",
+      "data": [
+        {
+          "text": "mon",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "mons",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "tre",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mes baguettes",
+      "oci": "mas baguetas",
+      "data": [
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "ba",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "guet",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": false
+        },
+        {
+          "text": "tes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "ma baguette",
+      "oci": "ma bagueta",
+      "data": [
+        {
+          "text": "ma",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "ba",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "guet",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": false
+        },
+        {
+          "text": "te",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mes fantômes",
+      "oci": "mos fantaumas",
+      "data": [
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "fan",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "tô",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mon fantôme",
+      "oci": "mon fantauma",
+      "data": [
+        {
+          "text": "mon",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "fan",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "tô",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "me",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mes souris",
+      "oci": "mas mirgas",
+      "data": [
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "sou",
+          "classname": "syllabe",
+          "color": "red",
+          "is_border": false
+        },
+        {
+          "text": "ris",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "ma souris",
+      "oci": "ma mirga",
+      "data": [
+        {
+          "text": "ma",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "sou",
+          "classname": "syllabe",
+          "color": "red",
+          "is_border": false
+        },
+        {
+          "text": "ris",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mes pieds",
+      "oci": "mos pès",
+      "data": [
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "pieds",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mon pied",
+      "oci": "mon pè",
+      "data": [
+        {
+          "text": "mon",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "pied",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mes vagues",
+      "oci": "mas èrsas",
+      "data": [
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "va",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "gues",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "ma vague",
+      "oci": "mon èrsa",
+      "data": [
+        {
+          "text": "ma",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "va",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "gue",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mes arbres",
+      "oci": "mos arbres",
+      "data": [
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "ar",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "bres",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mes fleurs",
+      "oci": "mas flors",
+      "data": [
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "fleurs",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mes grottes",
+      "oci": "mas caunas",
+      "data": [
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "grot",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "tes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mes forêts",
+      "oci": "mos bòsques",
+      "data": [
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "fo",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "rêts",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mes docteurs",
+      "oci": "mos doctors",
+      "data": [
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "doc",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "teurs",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mes bras",
+      "oci": "mos braces",
+      "data": [
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "bras",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mes fenêtres",
+      "oci": "mas fenèstras",
+      "data": [
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "fe",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "nê",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "tres",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mes jardins",
+      "oci": "mos jardins",
+      "data": [
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "jar",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "dins",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mes jambes",
+      "oci": "mas cambas",
+      "data": [
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "jam",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "bes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mon arbre",
+      "oci": "mon arbre",
+      "data": [
+        {
+          "text": "mon",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "ar",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "bre",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mon docteur",
+      "oci": "mon doctor",
+      "data": [
+        {
+          "text": "mon",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "doc",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "teur",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mon bras",
+      "oci": "mon braç",
+      "data": [
+        {
+          "text": "mon",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "bras",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mon jardin",
+      "oci": "mon jardin",
+      "data": [
+        {
+          "text": "mon",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "jar",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "din",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "ma fleur",
+      "oci": "ma flor",
+      "data": [
+        {
+          "text": "ma",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "fleur",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "ma grotte",
+      "oci": "ma cauna",
+      "data": [
+        {
+          "text": "ma",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "grot",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "te",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "ma forêt",
+      "oci": "mon bòsc",
+      "data": [
+        {
+          "text": "ma",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "fo",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "rêt",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "ma fenêtre",
+      "oci": "ma fenèstra",
+      "data": [
+        {
+          "text": "ma",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "fe",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "nê",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "tre",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "ma jambe",
+      "oci": "ma camba",
+      "data": [
+        {
+          "text": "ma",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "jam",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "be",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mes poissons",
+      "oci": "mos peisses",
+      "data": [
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "pois",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "sons",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mes tables",
+      "oci": "mas taulas",
+      "data": [
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "ta",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "bles",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mes soleils",
+      "oci": "mos solelhs",
+      "data": [
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "so",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "leils",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mes ogres",
+      "oci": "mos dracs",
+      "data": [
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "o",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": true
+        },
+        {
+          "text": "gres",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mes reines",
+      "oci": "mas reinas",
+      "data": [
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "rei",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "nes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mes trolls",
+      "oci": "mos fadets",
+      "data": [
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "trolls",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mon poisson",
+      "oci": "mon peis",
+      "data": [
+        {
+          "text": "mon",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "pois",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "son",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mon soleil",
+      "oci": "mon solelh",
+      "data": [
+        {
+          "text": "mon",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "so",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "leil",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mon ogre",
+      "oci": "mon drac",
+      "data": [
+        {
+          "text": "mon",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "o",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": true
+        },
+        {
+          "text": "gre",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mon troll",
+      "oci": "mon fadet",
+      "data": [
+        {
+          "text": "mon",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "troll",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "ma table",
+      "oci": "ma taula",
+      "data": [
+        {
+          "text": "ma",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "ta",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "ble",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "ma reine",
+      "oci": "ma reina",
+      "data": [
+        {
+          "text": "ma",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "rei",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "ne",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mes bols",
+      "oci": "mos bòls",
+      "data": [
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "bols",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mes cuisines",
+      "oci": "mas cosinas",
+      "data": [
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "cui",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "si",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "nes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mes bois",
+      "oci": "mos bòsques",
+      "data": [
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "bois",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mes robes",
+      "oci": "mas raubas",
+      "data": [
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "ro",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "bes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mes nuages",
+      "oci": "mos nívols",
+      "data": [
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "nua",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "ges",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mes salades",
+      "oci": "mas ensaladas",
+      "data": [
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "sa",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "la",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mes colliers",
+      "oci": "mos colars",
+      "data": [
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "col",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "liers",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mes vaches",
+      "oci": "mas vacas",
+      "data": [
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "va",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "ches",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mes coeurs",
+      "oci": "mos còrs",
+      "data": [
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "coeurs",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mon bol",
+      "oci": "mon bòl",
+      "data": [
+        {
+          "text": "mon",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "bol",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mon bois",
+      "oci": "ma fusta",
+      "data": [
+        {
+          "text": "mon",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "bois",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mon nuage",
+      "oci": "mon nívol",
+      "data": [
+        {
+          "text": "mon",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "nua",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "ge",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mon collier",
+      "oci": "mon colar",
+      "data": [
+        {
+          "text": "mon",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "col",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "li",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "er",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": true
+        }
+      ]
+    },
+    {
+      "fr": "mon coeur",
+      "oci": "mon còr",
+      "data": [
+        {
+          "text": "mon",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "coeur",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "ma cuisine",
+      "oci": "ma cosina",
+      "data": [
+        {
+          "text": "ma",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "cui",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "si",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "ne",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "ma robe",
+      "oci": "ma rauba",
+      "data": [
+        {
+          "text": "ma",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "ro",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "be",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "ma salade",
+      "oci": "mon ensalada",
+      "data": [
+        {
+          "text": "ma",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "sa",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "la",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "de",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "ma vache",
+      "oci": "ma vaca",
+      "data": [
+        {
+          "text": "ma",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "va",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "che",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mon ourse",
+      "oci": "mon orsa",
+      "data": [
+        {
+          "text": "mon",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "our",
+          "classname": "syllabe",
+          "color": "red",
+          "is_border": false
+        },
+        {
+          "text": "se",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mes ourses",
+      "oci": "mas orsas",
+      "data": [
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "our",
+          "classname": "syllabe",
+          "color": "red",
+          "is_border": false
+        },
+        {
+          "text": "ses",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mon pont",
+      "oci": "mon pont",
+      "data": [
+        {
+          "text": "mon",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "pont",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mes ponts",
+      "oci": "mos ponts",
+      "data": [
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "ponts",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mon île",
+      "oci": "mon illa",
+      "data": [
+        {
+          "text": "mon",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "î",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": true
+        },
+        {
+          "text": "le",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mes îles",
+      "oci": "mas illas",
+      "data": [
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "î",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": true
+        },
+        {
+          "text": "les",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "ma pomme",
+      "oci": "ma poma",
+      "data": [
+        {
+          "text": "ma",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "pom",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "me",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mes pommes",
+      "oci": "mas pomas",
+      "data": [
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "pom",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "ma rivière",
+      "oci": "mon riu",
+      "data": [
+        {
+          "text": "ma",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "ri",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "viè",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "re",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mes rivières",
+      "oci": "mos rius",
+      "data": [
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "ri",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "viè",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "res",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mon fromage",
+      "oci": "mon formatge",
+      "data": [
+        {
+          "text": "mon",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "fro",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "ma",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "ge",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mes fromages",
+      "oci": "mos formatges",
+      "data": [
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "fro",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "ma",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "ges",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mon pain",
+      "oci": "mon pan",
+      "data": [
+        {
+          "text": "mon",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "pain",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mes pains",
+      "oci": "mos pans",
+      "data": [
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "pains",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mon coquillage",
+      "oci": "ma cauquilha",
+      "data": [
+        {
+          "text": "mon",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "co",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "quil",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "la",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "ge",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mes coquillages",
+      "oci": "mas cauquilhas",
+      "data": [
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "co",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "quil",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "la",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "ges",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mes chevaux",
+      "oci": "mos cavals",
+      "data": [
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "che",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "vaux",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mes trains",
+      "oci": "mos trens",
+      "data": [
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "trains",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mes dragons",
+      "oci": "mos dragons",
+      "data": [
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "dra",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "gons",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mes épées",
+      "oci": "mas espasas",
+      "data": [
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "é",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": true
+        },
+        {
+          "text": "pées",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mes robots",
+      "oci": "mos robòts",
+      "data": [
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "ro",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "bots",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mes camions",
+      "oci": "mos camions",
+      "data": [
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "ca",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "mions",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "ma musique",
+      "oci": "ma musica",
+      "data": [
+        {
+          "text": "ma",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "mu",
+          "classname": "syllabe",
+          "color": "orange",
+          "is_border": false
+        },
+        {
+          "text": "si",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "que",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mon livre",
+      "oci": "mon libre",
+      "data": [
+        {
+          "text": "mon",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "li",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "vre",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "ma bouche",
+      "oci": "ma boca",
+      "data": [
+        {
+          "text": "ma",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "bou",
+          "classname": "syllabe",
+          "color": "red",
+          "is_border": false
+        },
+        {
+          "text": "che",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "ma soupe",
+      "oci": "ma sopa",
+      "data": [
+        {
+          "text": "ma",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "sou",
+          "classname": "syllabe",
+          "color": "red",
+          "is_border": false
+        },
+        {
+          "text": "pe",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mon cheval",
+      "oci": "mon caval",
+      "data": [
+        {
+          "text": "mon",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "che",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "val",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mon train",
+      "oci": "mon tren",
+      "data": [
+        {
+          "text": "mon",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "tra",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "in",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mon dragon",
+      "oci": "mon dragon",
+      "data": [
+        {
+          "text": "mon",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "dra",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "gon",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mon épée",
+      "oci": "mon espasa",
+      "data": [
+        {
+          "text": "mon",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "é",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": true
+        },
+        {
+          "text": "pée",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mon robot",
+      "oci": "mon robòt",
+      "data": [
+        {
+          "text": "mon",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "ro",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "bot",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mon camion",
+      "oci": "mon camion",
+      "data": [
+        {
+          "text": "mon",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "ca",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "mi",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "on",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mes chocolats",
+      "oci": "mos chocolats",
+      "data": [
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "cho",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "co",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "lats",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mon chocolat",
+      "oci": "mon chocolat",
+      "data": [
+        {
+          "text": "mon",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "cho",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "co",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "lat",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mes papillons",
+      "oci": "mos parpalhons",
+      "data": [
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "pa",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "pil",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "lons",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mon papillon",
+      "oci": "mon parpalhon",
+      "data": [
+        {
+          "text": "mon",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "pa",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "pil",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "lon",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mes oursons",
+      "oci": "mos orsons",
+      "data": [
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "our",
+          "classname": "syllabe",
+          "color": "red",
+          "is_border": false
+        },
+        {
+          "text": "sons",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mon ourson",
+      "oci": "mon orson",
+      "data": [
+        {
+          "text": "mon",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "our",
+          "classname": "syllabe",
+          "color": "red",
+          "is_border": false
+        },
+        {
+          "text": "son",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mes feux",
+      "oci": "mos fuòcs",
+      "data": [
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "feux",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mon feu",
+      "oci": "mon fuòc",
+      "data": [
+        {
+          "text": "mon",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "feu",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mes citrouilles",
+      "oci": "mas cojas",
+      "data": [
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "ci",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "trouil",
+          "classname": "syllabe",
+          "color": "red",
+          "is_border": false
+        },
+        {
+          "text": "les",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "ma citrouille",
+      "oci": "ma coja",
+      "data": [
+        {
+          "text": "ma",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "ci",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "trouil",
+          "classname": "syllabe",
+          "color": "red",
+          "is_border": false
+        },
+        {
+          "text": "le",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mes poupées",
+      "oci": "mas monacas",
+      "data": [
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "pou",
+          "classname": "syllabe",
+          "color": "red",
+          "is_border": false
+        },
+        {
+          "text": "pées",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "ma poupée",
+      "oci": "ma monaca",
+      "data": [
+        {
+          "text": "ma",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "pou",
+          "classname": "syllabe",
+          "color": "red",
+          "is_border": false
+        },
+        {
+          "text": "pée",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mes poules",
+      "oci": "mas galinas",
+      "data": [
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "pou",
+          "classname": "syllabe",
+          "color": "red",
+          "is_border": false
+        },
+        {
+          "text": "les",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "ma poule",
+      "oci": "ma galina",
+      "data": [
+        {
+          "text": "ma",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "pou",
+          "classname": "syllabe",
+          "color": "red",
+          "is_border": false
+        },
+        {
+          "text": "le",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mes chatons",
+      "oci": "mos gatons",
+      "data": [
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "cha",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "tons",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mon chaton",
+      "oci": "mon gaton",
+      "data": [
+        {
+          "text": "mon",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "cha",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "ton",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mes feuilles",
+      "oci": "mas fuèlhas",
+      "data": [
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "feuil",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "les",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "ma chasseuse",
+      "oci": "ma caçaira",
+      "data": [
+        {
+          "text": "ma",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "chas",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "seu",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "se",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mon oeuf",
+      "oci": "mon uòu",
+      "data": [
+        {
+          "text": "mon",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "oeuf",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mon sapin",
+      "oci": "mon avet",
+      "data": [
+        {
+          "text": "mon",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "sa",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "pin",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mon étoile",
+      "oci": "mon estela",
+      "data": [
+        {
+          "text": "mon",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "é",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": true
+        },
+        {
+          "text": "toi",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "le",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "ma glace",
+      "oci": "mon glaç",
+      "data": [
+        {
+          "text": "ma",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "gla",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "ce",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mon ballon",
+      "oci": "mon balon",
+      "data": [
+        {
+          "text": "mon",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "bal",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "lon",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mes chasseurs",
+      "oci": "mos caçaires",
+      "data": [
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "chas",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "seurs",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mes oeufs",
+      "oci": "mos uòus",
+      "data": [
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "oeufs",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mes sapins",
+      "oci": "mos avets",
+      "data": [
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "sa",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "pins",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mes étoiles",
+      "oci": "mas estelas",
+      "data": [
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "é",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": true
+        },
+        {
+          "text": "toi",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "les",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mes glaces",
+      "oci": "mos glaces",
+      "data": [
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "gla",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "ces",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mes ballons",
+      "oci": "mos balons",
+      "data": [
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "bal",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "lons",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "ma feuille",
+      "oci": "ma fuèlha",
+      "data": [
+        {
+          "text": "ma",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "feuil",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "le",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mon chasseur",
+      "oci": "mon caçaire",
+      "data": [
+        {
+          "text": "mon",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "chas",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "seur",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mes noix",
+      "oci": "mas noses",
+      "data": [
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "noix",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mon escalier",
+      "oci": "mon escalièr",
+      "data": [
+        {
+          "text": "mon",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "es",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": false
+        },
+        {
+          "text": "ca",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "li",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "er",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": true
+        }
+      ]
+    },
+    {
+      "fr": "ma cuiller",
+      "oci": "mon culhièr",
+      "data": [
+        {
+          "text": "ma",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "cuil",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "ler",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mon cochon",
+      "oci": "mon pòrc",
+      "data": [
+        {
+          "text": "mon",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "co",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "chon",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mes échelles",
+      "oci": "mas escalas",
+      "data": [
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "é",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": true
+        },
+        {
+          "text": "chel",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "les",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mon échelle",
+      "oci": "mon escala",
+      "data": [
+        {
+          "text": "mon",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "é",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": true
+        },
+        {
+          "text": "chel",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "le",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "ma noix",
+      "oci": "ma nose",
+      "data": [
+        {
+          "text": "ma",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "noix",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mes cuillers",
+      "oci": "mos culhièrs",
+      "data": [
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "cuil",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "lers",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mes cochons",
+      "oci": "mos pòrcs",
+      "data": [
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "co",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "chons",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "mes escaliers",
+      "oci": "mos escalièrs",
+      "data": [
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "es",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": false
+        },
+        {
+          "text": "ca",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "liers",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": false
+        }
+      ]
+    }
+  ]
+}

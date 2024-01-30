@@ -1,9 +1,15 @@
-Pour continuer le livre, après avoir effectuer les différents pages du livre, le template est le même.
-Il y a deux templates:
-- un template avec le "titre" à gauche pour illustrer l'apprentissage est à gauche des petites phrases avec un "nom" en dessin qui peut se soulever pour voir l'écriture du mot.
-- un autre template simplement pour avoir des petites phrase à gauche ET à droite.
-  
+POUR GPT4:
+Je suis en train de créer un livre pour enfant de 4 ans qui permet d'apprendre a lire en découpant les mots en syllabes et associant une couleur par type de syllabe. Les types sont définis de la manière suivante: si une syllabe contient le son "a" c'est une catégorie. Je fais la même opération pour les voyelles suivante: "e", "i", "é", "o", "u", "ou". Maintenant je vais écrire des petites phrases comme par exemple "Le chien a un os", et j'aimerai que tu créer une ilustration au format A5 car je vais mettre l'image sur un fichier HTML qui fera la moitié d'une feuille A4 en mode paysage. Génère moi une image pour la phrase suivante: "Le prince à une épée dorée"
 
+
+étapes a faire pour terminer ce projet:
+1 - Créer le template pour générer des images GPT4 et avoir 20-40 occurences par type de phrases, des courtes, moyennes et grande phrase.
+
+2 - Gestion des dossiers: il faut créer tout le HTML dans un dossier comme:
+  book/book_1/html: Ici on met tous les fichiers HTMLs du livre
+  book/book_1/pdf: Ici on peut tous les fichiers PDF formatté et imprimable.
+
+3 - Analyser si c'est possible d'imprimer sur des feuilles épaisse comme du 160g pour pouvoir imprimer de chaque côté. faire des tests.
 
   LES PAGES HOMOPHONES SERONT FAITE A LA MAIN SUR DRAWIO EST IMPRIMER
 

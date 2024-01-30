@@ -1,5 +1,6 @@
 import os
 import time
+import subprocess
 from mistralai.client import MistralClient
 from mistralai.models.chat_completion import ChatMessage
 
@@ -37,6 +38,15 @@ class ChatGPT:
         tokens = completion.usage.total_tokens
         print(f"COMPLETION TOKEN: {completion.usage.completion_tokens}")
         return answer, tokens
+    
+    def generate_img(self, question: str):
+        completion = self.openai_client.images.generate(
+            model="dall-e-3",
+            prompt=question,
+            n=1,
+            size="1792x1024",
+        )
+        subprocess.run(["firefox",completion.data[0].url])
     
     
     def answer_mistral(

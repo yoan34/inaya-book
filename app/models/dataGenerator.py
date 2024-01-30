@@ -7,8 +7,8 @@ from dotenv import load_dotenv
 from bs4 import BeautifulSoup
 from app.models.storyParser import StoryParser
 from app.models.chatGPT import ChatGPT
-from app.tools.constants import QUESTION_GENERATE_SENTENCES, CONTEXT_GENERATE_SENTENCES
-from app.tools.enumerators import WordType, GrammaticalCategory, Color
+from app.tools.constants import QUESTION_GENERATE_SENTENCES, CONTEXT_GENERATE_SENTENCES, CONTEXT_GENERATE_IMG
+from app.tools.enumerators import WordType, GrammaticalCategory, Color, IllustratedPageCategory
 
 load_dotenv()
 
@@ -145,7 +145,6 @@ class DataGenerator:
         nouns = list(sorted(nouns, key=lambda x: x[1], reverse=True))[:top]
         return nouns
         
-        
     def generate_all_sentences(self, category: GrammaticalCategory):
         nouns = DataGenerator.NOUNS_WITH_IMG
         result = {"sentences": []}
@@ -177,53 +176,102 @@ class DataGenerator:
         with open(file_path, "w", encoding='utf-8') as f:
             json.dump(result, f, ensure_ascii=False, indent=2)
         print("END GENERATE SENTENCES")
-            
+      
+    def generate_multi_word_sentences(self, category):
+        with open(f"app/sentences/{category}.json", 'r') as f:
+            sentences = json.load(f)["sentences"]
+        print(sentences)
+        for sentence in sentences:
+            question = CONTEXT_GENERATE_IMG.format(sentence)
+            print(f"QUESTION: {question}")
+            self.chat_gpt.generate_img(question)
+                 
     def _get_color(self, syllabe):
-        for homophone in ['aient', 'ait', 'ais', 'ai', 'est', 'et', 'é', 'és', 'ée', 'ées', 'eai']:
+        for homophone in ['aient', 'ait', 'ais', 'ai', 'est', 'et', 'é', 'és', 'ée', 'ées', 'eai', 'er']:
             if homophone in syllabe:
                 return Color.E_AIGU.value
         if 'es' == syllabe:
             return Color.E_AIGU.value
+        if 'ou' in syllabe:
+            return Color.OU.value
         for homophone in ['oh', 'ho', 'eau', 'au', 'o', 'ô']:
             if homophone in syllabe:
                 return Color.O.value
         for homophone in ['as', 'ah', 'ha', 'a', 'à', 'â']:
             if homophone in syllabe:
                 return Color.A.value
-        for homophone in ['ie', 'y', 'is', 'it', 'i']:
+        for homophone in ['ie', 'y', 'is', 'it', 'i', 'î']:
             if homophone in syllabe:
                 return Color.I.value
         for homophone in ['ent', 'es', 'e', 'è', 'ê']:
             if homophone in syllabe:
                 return Color.E.value
-        if 'ou' in syllabe:
-            return Color.OU.value
         if 'u' in syllabe:
             return Color.U.value
-    
+        
+    def _is_an_homophone_or_not(self, syllabe, n):
+        for homophone in ['aient', 'ait', 'ais', 'ai', 'est', 'et', 'é', 'és', 'ée', 'ées', 'eai', 'er']:
+            if homophone == syllabe:
+                return True
+        if "es" == syllabe:
+            if n == 1:
+                return True
+            return False
+        for homophone in ['oh', 'ho', 'eau', 'au', 'o', 'ô']:
+            if homophone == syllabe:
+                return True
+        for homophone in ['as', 'ah', 'ha', 'a', 'à', 'â']:
+            if homophone == syllabe:
+                return True
+        for homophone in ['ie', 'y', 'is', 'it', 'i', 'î']:
+            if homophone == syllabe:
+                return True
+        for homophone in ['ent', 'es', 'e', 'è', 'ê']:
+            if homophone == syllabe:
+                return True
+        if 'ou' == syllabe:
+            return True
+        if 'u' == syllabe:
+            return True
+        return False
+        
     def format_sentence_for_template(self, category: GrammaticalCategory):
-        result = []
-        sentences = self._get_sentences(category.fr)
+        result = {"header_words": [], "sentences": []}
+        sentences, grammatical_words = self._get_sentences_and_words(category.fr)
+        self.create_and_fill_data_template(data=result, sentences=grammatical_words, category="header_words")
+        self.create_and_fill_data_template(data=result, sentences=sentences, category="sentences")
+        with open(f"app/sentences/template_{category.fr.lower()}.json", "w") as f:
+            json.dump(result, f, ensure_ascii=False, indent=2)
+        return result
+    
+    def format_sentence_for_illustrated_page_template(self, category):
+        result = {"header_words": [], "sentences": []}
+        sentences, _ = self._get_sentences_and_words(category.value)
+        if sentences:
+            self.create_and_fill_data_template(data=result, sentences=sentences, category="sentences", folder_img=category.value)
+            with open(f"app/sentences/template_{category.value}.json", "w") as f:
+                json.dump(result, f, ensure_ascii=False, indent=2)
+                print(f"file app/sentences/template_{category.value}.json create successfully!")
+    
+    def create_and_fill_data_template(self, data, sentences, category, folder_img = ""):
         for ind, sentence in enumerate(sentences):
             t1 = time.time()
             item = {"fr": sentence, "oci": self._translate_in_oci(sentence), "data": []}
+            if folder_img:
+                abs_path = os.path.dirname(os.path.dirname(__file__))
+                item["img"] = f"{abs_path}/src/img/{folder_img}/{sentence}.png"
             words = sentence.split(' ')
             for i, word in enumerate(words):
                 syllabes = self._get_syllabes(word)
                 for syllabe in self._split_syllabes(syllabes):
-                    # CHECK SI GROSSE SYLLABE DECOUPABLE
-                    if syllabe in ["lier", "blier", "tier", "mion"]:
-                        pass
                     color = self._get_color(syllabe)
-                    item["data"].append({"text": syllabe, "classname": "syllabe", "color": color})
+                    is_border = self._is_an_homophone_or_not(syllabe, n=len(syllabes))
+                    item["data"].append({"text": syllabe, "classname": "syllabe", "color": color, "is_border": is_border})
                 if i + 1 != len(words):
-                    item["data"].append({"text": "", "classname": "space", "color": "white"})
-            result.append(item)
+                    item["data"].append({"text": "", "classname": "space", "color": "white", "is_border": False})
+            data[category].append(item)
             t2 = time.time()
-            print(f"sentence {ind+1}/{len(sentences)} done in {(t2-t1):.2f}s")
-        with open(f"app/sentences/template_{category.fr.lower()}.json", "w") as f:
-            json.dump(result, f, ensure_ascii=False, indent=2)
-        return result
+            print(f"{category}: {sentence:<24}   {ind+1}/{len(sentences)} done in {(t2-t1):.2f}s")
     
     def _split_syllabes(self, syllabes):
         result = []
@@ -240,10 +288,14 @@ class DataGenerator:
             result.append(syllabe)
         return result
     
-    def _get_sentences(self, category: str):
-        with open(f"app/sentences/{category.lower()}.json", "r") as f:
-            data = json.load(f)
-            return data['sentences']
+    def _get_sentences_and_words(self, category: str):
+        try:
+            with open(f"app/sentences/{category.lower()}.json", "r") as f:
+                data = json.load(f)
+                return data['sentences'], data['words']
+        except FileNotFoundError as e:
+            print(f"File app/sentences/{category.lower()}.json doesn't exist: {e}")
+            return False, False
     
     def _translate_in_oci(self, sentence):
         try:
@@ -289,28 +341,28 @@ class DataGenerator:
 
 if __name__ == "__main__":
     data_generator = DataGenerator(stories_name="fake_stories", dataset_name="dataset_stories")
-    # TODO
-    # 1 - générér tous les autres fichiers a l'aide du GPT4, changer simplement la catégory
-    # 2 - générer les données de template pour tous les fichiers
-    # 3 - créer des templates et adapter les couleurs
+    # quand je lance ce fichier "python3 -m app.models.dataGenerator"
+    # je récupère les fichiers templates qui existe déjà et je vais créer tous les templates
+    # restant pour avoir les données à jours de toutes les phrases.
+    CHOICE_DATA_TO_GENERATE = "illustrated_page"
     
-    # permet de générer pleins de phrases pour une catégorie donné en créer le fichier.
-    # data_generator.generate_all_sentences(GrammaticalCategory.PLURAL_POSSESSIVE_ADJECTIVES)
+    filenames = os.listdir("app/sentences")
+    filenames = [filename for filename in filenames if filename.startswith("template")]
+    filenames = [filename.split('.')[0].split('_')[1] for filename in filenames]
+    print(f"FILENAMES: {filenames}")
     
-    # Cette fonction permet de récupérer tous les phrases dans le fichier 'indefinite articles.json'
-    # et de créer un autre fichier qui se termine par 'template' formmater pour le html.
-    data_generator.format_sentence_for_template(GrammaticalCategory.FIRST_PERSON_POSSESSIVE_ADJECTIVES)
+    if CHOICE_DATA_TO_GENERATE == "illustrated_page":
+        for illustrated_page in IllustratedPageCategory:
+            if illustrated_page.value not in filenames:
+                data_generator.format_sentence_for_illustrated_page_template(illustrated_page)
+            else:
+                print(f"template {illustrated_page.value} already create...")
     
-    # INDEFINITE_ARTICLES = (["un", "une"], "ARTICLES INDEFINIS")
-    # PARTITIVE_ARTICLES = (["de", "du", "des"], "ARTICLES PARTITIFS")
-    # DEFINITE_ARTICLES = (["le", "la", "les", "l'"], "ARTICLES DEFINIS")
-    # DESMONSTRATIVE_ADJECTIVES = (["ce", "cet", "cette", "ces"], "ADJECTIFS DEMONSTRATIFS")
-    # FIRST_PERSON_POSSESSIVE_ADJECTIVES = (["mes", "mon", "ma"], "ADJECTIFS POSSESSIFS PREMIERE PERSONNE")
-    # SECOND_PERSON_POSSESSIVE_ADJECTIVES = (["ton", "ta", "tes"], "ADJECTIFS POSSESSIFS DEUXIEME PERSONNE")
-    # THIRD_PERSON_POSSESSIVE_ADJECTIVES = (["son", "sa", "ses"], "ADJECTIFS POSSESSIFS TROISIEME PERSONNE")
-    # PLURAL_POSSESSIVE_ADJECTIVES = (["notre", "votre", "leur"], "ADJECTIFS POSSESSIFS PLURIEL")
-    
-
-    
+    if CHOICE_DATA_TO_GENERATE == "grammatical":
+        for value in GrammaticalCategory:
+            if value.fr.lower() not in filenames:
+                data_generator.format_sentence_for_template(value)
+            else:
+                print(f"template {value.fr.lower()} already create...")
     
     

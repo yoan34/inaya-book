@@ -39,9 +39,11 @@
 <body>
     <div class="container">
         {% for img in data %}
-        <div class="container_img" style="width:{{ img['pixel'] }}px">
-            <img class="image" width={{ img['pixel'] }} alt={{ img['name'] }} src={{ img['path'] }} />
-        </div>
+            {% for i in range(img["quantity"]) %}
+            <div class="container_img" style="width:{{ img['pixel'] }}px">
+                <img class="image" width={{ img['pixel'] }} alt={{ img['name'] }} src={{ img['path'] }} />
+            </div>  
+            {% endfor %}
         {% endfor %}
     </div>
 </body>

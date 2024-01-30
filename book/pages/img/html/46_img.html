@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        @font-face {
+            font-family: 'Karla';
+            font-style: normal;
+            font-weight: 400;
+            src: url('/home/ybousquet/projects/inaya_book/app/src/fonts/static/Karla-Regular.ttf') format('truetype');
+          }
+        .page {
+            width: 1123px; /* Largeur d'une feuille A4 */
+            height: 794px; /* Hauteur d'une feuille A4 */
+            margin: auto;
+            position: relative; /* Nécessaire pour positionner correctement les demi-pages */
+            display: flex;
+            flex-direction: row;
+            font-size: 36px;
+            z-index: 1;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .container_img {
+            display: flex;
+            border: 1px solid #f7f7f7;
+            height: 80px;
+            padding-bottom: 5px;
+        }
+        .image {
+            height: 50px;
+            object-fit: contain;
+            align-self: end;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+            
+            <div class="container_img" style="width:90px">
+                <img class="image" width=90 alt=fleur src=/home/ybousquet/projects/inaya_book/app/src/img/nouns/fleur.png />
+            </div>  
+            
+        
+            
+            <div class="container_img" style="width:108px">
+                <img class="image" width=108 alt=ballon src=/home/ybousquet/projects/inaya_book/app/src/img/nouns/ballon.png />
+            </div>  
+            
+        
+    </div>
+</body>
+</html>

@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        @font-face {
+            font-family: 'Karla';
+            font-style: normal;
+            font-weight: 400;
+            src: url('/home/ybousquet/projects/inaya_book/app/src/fonts/static/Karla-Regular.ttf') format('truetype');
+          }
+          @page {
+            size: A4 landscape;
+            margin: 0;
+        }
+        .page {
+            width: 1123px; /* Largeur d'une feuille A4 */
+            height: 794px; /* Hauteur d'une feuille A4 */
+            margin: 0;
+            position: relative; /* Nécessaire pour positionner correctement les demi-pages */
+            display: flex;
+            flex-direction: row;
+            font-size: 36px;
+            z-index: 1;
+        }
+        .page::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            opacity: 0.6; /* Réglez l'opacité entre 0 et 1 */
+          }
+        .page-left {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            border-right: 1px solid #dbdbdb;
+            font-size: 62px;
+            position: relative;
+            font-family: 'Karla', sans-serif;
+            z-index: 2;
+        }
+        .header_word_container {
+            display: flex;
+        }
+        .header_word_body {
+            display:flex;
+            flex-direction: column;
+        }
+        .header_word {
+            font-size: 130px;
+            font-family: 'Karla', sans-serif;
+            line-height: 100px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .header_word_big {
+            font-size: 130px;
+            margin-left: 5px;
+        }
+        .header_word_small {
+            line-height: 30px;
+            margin-top: 5px;
+            font-size: 36px;
+            margin-left: 4px;
+        }
+        .header_word_lower {
+            font-size: 36px;
+            font-family: 'Karla', sans-serif;
+            align-self: center;
+        }
+        .page-right {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            position: relative;
+            z-index: 2;
+        }
+        .sentence_body {
+            display: flex;
+            flex-direction: column;
+            padding: 0 30px;
+        }
+        .sentence_body:nth-child(even) {
+            align-self: end;
+        }
+        .sentence_body:nth-child(odd) {
+            align-self: start;
+        }
+        .sentence {
+            display: flex;
+        }
+        .sentence_oci {
+            font-size: 18px;
+            font-family: 'Karla', sans-serif;
+        }
+
+        .space {
+            margin: 0 12px;
+        }
+        .mot {
+            background-color: white;
+            opacity: 0.5;
+        }
+
+        .syllabe {
+            margin: 0 2px;
+            font-size: 36px;
+        }
+        .syl_blue--active, .syl_blue--inactive {
+            background-color: #9393ff;
+            border-radius: 4px;
+        }
+        .syl_green--active, .syl_green--inactive {
+            background-color: #52ff52;
+            border-radius: 4px;
+        }
+        .syl_pink--active, .syl_pink--inactive {
+            background-color: #ffced7;
+            border-radius: 4px;
+        }
+        .syl_yellow--active, .syl_yellow--inactive {
+            background-color: #ffff7a;
+            border-radius: 4px;
+        }
+        .syl_orange--active, .syl_orange--inactive {
+            background-color: #ffcc6e;
+            border-radius: 4px;
+        }
+        .syl_purple--active, .syl_purple--inactive {
+            background-color: #e188e1;
+            border-radius: 4px;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="page">
+        <div class="page-left">
+            
+          <div class="sentence_body">
+            <div class="sentence">
+            
+            
+                
+                    <div class="syllabe syl_blue--inactive">tes</div>
+                
+            
+            
+                
+                    <div class=space></div>
+                
+            
+            
+                
+                    <div class="syllabe syl_purple--inactive">mains</div>
+                
+            
+            </div>
+            <div class="sentence_oci">tas mans</div>
+            </div>
+            
+          <div class="sentence_body">
+            <div class="sentence">
+            
+            
+                
+                    <div class="syllabe syl_blue--inactive">tes</div>
+                
+            
+            
+                
+                    <div class=space></div>
+                
+            
+            
+                
+                    <div class="syllabe syl_yellow--inactive">bols</div>
+                
+            
+            </div>
+            <div class="sentence_oci">tos bòls</div>
+            </div>
+            
+          <div class="sentence_body">
+            <div class="sentence">
+            
+            
+                
+                    <div class="syllabe syl_blue--inactive">tes</div>
+                
+            
+            
+                
+                    <div class=space></div>
+                
+            
+            
+                
+                    <div class="syllabe syl_green--inactive">si</div>
+                
+            
+            
+                
+                    <div class="syllabe syl_blue--inactive">rè</div>
+                
+            
+            
+                
+                    <div class="syllabe syl_blue--inactive">nes</div>
+                
+            
+            </div>
+            <div class="sentence_oci">tas serenas</div>
+            </div>
+            
+          <div class="sentence_body">
+            <div class="sentence">
+            
+            
+                
+                    <div class="syllabe syl_blue--inactive">tes</div>
+                
+            
+            
+                
+                    <div class=space></div>
+                
+            
+            
+                
+                    <div class="syllabe syl_pink--inactive">cha</div>
+                
+            
+            
+                
+                    <div class="syllabe syl_yellow--inactive">tons</div>
+                
+            
+            </div>
+            <div class="sentence_oci">tos gatons</div>
+            </div>
+            
+          <div class="sentence_body">
+            <div class="sentence">
+            
+            
+                
+                    <div class="syllabe syl_yellow--inactive">ton</div>
+                
+            
+            
+                
+                    <div class=space></div>
+                
+            
+            
+                
+                    <div class="syllabe syl_yellow--inactive">co</div>
+                
+            
+            
+                
+                    <div class="syllabe syl_green--inactive">quil</div>
+                
+            
+            
+                
+                    <div class="syllabe syl_pink--inactive">la</div>
+                
+            
+            
+                
+                    <div class="syllabe syl_blue--inactive">ge</div>
+                
+            
+            </div>
+            <div class="sentence_oci">ta cauquilha</div>
+            </div>
+            
+          <div class="sentence_body">
+            <div class="sentence">
+            
+            
+                
+                    <div class="syllabe syl_pink--inactive">ta</div>
+                
+            
+            
+                
+                    <div class=space></div>
+                
+            
+            
+                
+                    <div class="syllabe syl_green--inactive">ci</div>
+                
+            
+            
+                
+                    <div class="syllabe syl_yellow--inactive">trouil</div>
+                
+            
+            
+                
+                    <div class="syllabe syl_blue--inactive">le</div>
+                
+            
+            </div>
+            <div class="sentence_oci">ta coja</div>
+            </div>
+            
+          <div class="sentence_body">
+            <div class="sentence">
+            
+            
+                
+                    <div class="syllabe syl_yellow--inactive">ton</div>
+                
+            
+            
+                
+                    <div class=space></div>
+                
+            
+            
+                
+                    <div class="syllabe syl_yellow--inactive">ro</div>
+                
+            
+            
+                
+                    <div class="syllabe syl_yellow--inactive">bot</div>
+                
+            
+            </div>
+            <div class="sentence_oci">ton robòt</div>
+            </div>
+            
+          <div class="sentence_body">
+            <div class="sentence">
+            
+            
+                
+                    <div class="syllabe syl_yellow--inactive">ton</div>
+                
+            
+            
+                
+                    <div class=space></div>
+                
+            
+            
+                
+                    <div class="syllabe syl_blue--inactive">per</div>
+                
+            
+            
+                
+                    <div class="syllabe syl_yellow--inactive">ro</div>
+                
+            
+            
+                
+                    <div class="syllabe syl_purple--inactive">quet</div>
+                
+            
+            </div>
+            <div class="sentence_oci">ton papagai</div>
+            </div>
+            
+          <div class="sentence_body">
+            <div class="sentence">
+            
+            
+                
+                    <div class="syllabe syl_pink--inactive">ta</div>
+                
+            
+            
+                
+                    <div class=space></div>
+                
+            
+            
+                
+                    <div class="syllabe syl_pink--inactive">sa</div>
+                
+            
+            
+                
+                    <div class="syllabe syl_pink--inactive">la</div>
+                
+            
+            
+                
+                    <div class="syllabe syl_blue--inactive">de</div>
+                
+            
+            </div>
+            <div class="sentence_oci">ton ensalada</div>
+            </div>
+            
+          <div class="sentence_body">
+            <div class="sentence">
+            
+            
+                
+                    <div class="syllabe syl_yellow--inactive">ton</div>
+                
+            
+            
+                
+                    <div class=space></div>
+                
+            
+            
+                
+                    <div class="syllabe syl_pink--inactive">fan</div>
+                
+            
+            
+                
+                    <div class="syllabe syl_yellow--inactive">tô</div>
+                
+            
+            
+                
+                    <div class="syllabe syl_blue--inactive">me</div>
+                
+            
+            </div>
+            <div class="sentence_oci">ton fantauma</div>
+            </div>
+            
+        </div>
+        <div class="page-right">
+          
+          <div class="sentence_body">
+            <div class="sentence">
+            
+            
+                
+                    <div class="syllabe syl_blue--inactive">tes</div>
+                
+            
+            
+                
+                    <div class=space></div>
+                
+            
+            
+                
+                    <div class="syllabe syl_purple--active">é</div>
+                
+            
+            
+                
+                    <div class="syllabe syl_yellow--inactive">pau</div>
+                
+            
+            
+                
+                    <div class="syllabe syl_blue--inactive">les</div>
+                
+            
+            </div>
+            <div class="sentence_oci">tas espatlas</div>
+            </div>
+            
+          <div class="sentence_body">
+            <div class="sentence">
+            
+            
+                
+                    <div class="syllabe syl_blue--inactive">tes</div>
+                
+            
+            
+                
+                    <div class=space></div>
+                
+            
+            
+                
+                    <div class="syllabe syl_pink--inactive">pa</div>
+                
+            
+            
+                
+                    <div class="syllabe syl_pink--inactive">pas</div>
+                
+            
+            </div>
+            <div class="sentence_oci">tos papàs</div>
+            </div>
+            
+          <div class="sentence_body">
+            <div class="sentence">
+            
+            
+                
+                    <div class="syllabe syl_blue--inactive">tes</div>
+                
+            
+            
+                
+                    <div class=space></div>
+                
+            
+            
+                
+                    <div class="syllabe syl_blue--inactive">lè</div>
+                
+            
+            
+                
+                    <div class="syllabe syl_blue--inactive">vres</div>
+                
+            
+            </div>
+            <div class="sentence_oci">tos pòts</div>
+            </div>
+            
+          <div class="sentence_body">
+            <div class="sentence">
+            
+            
+                
+                    <div class="syllabe syl_blue--inactive">tes</div>
+                
+            
+            
+                
+                    <div class=space></div>
+                
+            
+            
+                
+                    <div class="syllabe syl_None--inactive">î</div>
+                
+            
+            
+                
+                    <div class="syllabe syl_blue--inactive">les</div>
+                
+            
+            </div>
+            <div class="sentence_oci">tas illas</div>
+            </div>
+            
+          <div class="sentence_body">
+            <div class="sentence">
+            
+            
+                
+                    <div class="syllabe syl_blue--inactive">tes</div>
+                
+            
+            
+                
+                    <div class=space></div>
+                
+            
+            
+                
+                    <div class="syllabe syl_blue--inactive">feux</div>
+                
+            
+            </div>
+            <div class="sentence_oci">tos fuòcs</div>
+            </div>
+            
+          <div class="sentence_body">
+            <div class="sentence">
+            
+            
+                
+                    <div class="syllabe syl_blue--inactive">tes</div>
+                
+            
+            
+                
+                    <div class=space></div>
+                
+            
+            
+                
+                    <div class="syllabe syl_pink--inactive">sa</div>
+                
+            
+            
+                
+                    <div class="syllabe syl_green--inactive">pins</div>
+                
+            
+            </div>
+            <div class="sentence_oci">tos avets</div>
+            </div>
+            
+          <div class="sentence_body">
+            <div class="sentence">
+            
+            
+                
+                    <div class="syllabe syl_yellow--inactive">ton</div>
+                
+            
+            
+                
+                    <div class=space></div>
+                
+            
+            
+                
+                    <div class="syllabe syl_yellow--inactive">coeur</div>
+                
+            
+            </div>
+            <div class="sentence_oci">ton còr</div>
+            </div>
+            
+          <div class="sentence_body">
+            <div class="sentence">
+            
+            
+                
+                    <div class="syllabe syl_yellow--inactive">ton</div>
+                
+            
+            
+                
+                    <div class=space></div>
+                
+            
+            
+                
+                    <div class="syllabe syl_yellow--inactive">fro</div>
+                
+            
+            
+                
+                    <div class="syllabe syl_pink--inactive">ma</div>
+                
+            
+            
+                
+                    <div class="syllabe syl_blue--inactive">ge</div>
+                
+            
+            </div>
+            <div class="sentence_oci">ton formatge</div>
+            </div>
+            
+          <div class="sentence_body">
+            <div class="sentence">
+            
+            
+                
+                    <div class="syllabe syl_yellow--inactive">ton</div>
+                
+            
+            
+                
+                    <div class=space></div>
+                
+            
+            
+                
+                    <div class="syllabe syl_blue--inactive">che</div>
+                
+            
+            
+                
+                    <div class="syllabe syl_pink--inactive">val</div>
+                
+            
+            </div>
+            <div class="sentence_oci">ton caval</div>
+            </div>
+            
+          <div class="sentence_body">
+            <div class="sentence">
+            
+            
+                
+                    <div class="syllabe syl_yellow--inactive">ton</div>
+                
+            
+            
+                
+                    <div class=space></div>
+                
+            
+            
+                
+                    <div class="syllabe syl_purple--inactive">lait</div>
+                
+            
+            </div>
+            <div class="sentence_oci">ton lach</div>
+            </div>
+            
+          </div>
+          
+    </div>
+</body>
+</html>

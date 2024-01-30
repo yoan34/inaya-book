@@ -39,6 +39,11 @@ class ModelType(Enum):
     GPT_4 = "gpt-4"
     
     
+class IllustratedPageCategory(Enum):
+    SMALL_ILLUSTRATED_PAGE = "small-illustrated-page"
+    MEDIUM_ILLUSTRATED_PAGE = "medium-illustrated-page"
+    BIG_ILLUSTRATED_PAGE = "big-illustrated-page"
+    
 class GrammaticalCategory(Enum):
     INDEFINITE_ARTICLES = (["un", "une"], "ARTICLES INDEFINIS")
     PARTITIVE_ARTICLES = (["de", "du", "des"], "ARTICLES PARTITIFS")
