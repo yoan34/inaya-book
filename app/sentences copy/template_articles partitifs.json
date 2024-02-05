@@ -1,0 +1,5964 @@
+{
+  "header_words": [
+    {
+      "fr": "de",
+      "oci": "de",
+      "data": [
+        {
+          "text": "de",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "du",
+      "oci": "del",
+      "data": [
+        {
+          "text": "du",
+          "classname": "syllabe",
+          "color": "orange",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "de la",
+      "oci": "de la",
+      "data": [
+        {
+          "text": "de",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "la",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des",
+      "oci": "dels",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "fr": "du prince",
+      "oci": "del prince",
+      "data": [
+        {
+          "text": "du",
+          "classname": "syllabe",
+          "color": "orange",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "prin",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "ce",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des princes",
+      "oci": "dels princes",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "prin",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "ces",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "du pirate",
+      "oci": "del pirata",
+      "data": [
+        {
+          "text": "du",
+          "classname": "syllabe",
+          "color": "orange",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "pi",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "ra",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "te",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des pirates",
+      "oci": "dels piratas",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "pi",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "ra",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "tes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "de papa",
+      "oci": "de papà",
+      "data": [
+        {
+          "text": "de",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "pa",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "pa",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "du papa",
+      "oci": "del papà",
+      "data": [
+        {
+          "text": "du",
+          "classname": "syllabe",
+          "color": "orange",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "pa",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "pa",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des papas",
+      "oci": "dels papàs",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "pa",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "pas",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "de la sorcière",
+      "oci": "de la masca",
+      "data": [
+        {
+          "text": "de",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "la",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "sor",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "ciè",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "re",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des sorcières",
+      "oci": "de las mascas",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "sor",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "ciè",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "res",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "de la princesse",
+      "oci": "de la princessa",
+      "data": [
+        {
+          "text": "de",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "la",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "prin",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "ces",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "se",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des princesses",
+      "oci": "de las princessas",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "prin",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "ces",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "ses",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "de la sirène",
+      "oci": "de la serena",
+      "data": [
+        {
+          "text": "de",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "la",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "si",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "rè",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "ne",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des sirènes",
+      "oci": "de las serenas",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "si",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "rè",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "nes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "de maman",
+      "oci": "de mamà",
+      "data": [
+        {
+          "text": "de",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "ma",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "man",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des mamans",
+      "oci": "de las mamàs",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "ma",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "mans",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "de la maison",
+      "oci": "de l'ostal",
+      "data": [
+        {
+          "text": "de",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "la",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "mai",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": false
+        },
+        {
+          "text": "son",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des maisons",
+      "oci": "dels ostals",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "mai",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": false
+        },
+        {
+          "text": "sons",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "de la fille",
+      "oci": "de la dròlla",
+      "data": [
+        {
+          "text": "de",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "la",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "fil",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "le",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des filles",
+      "oci": "de las dròllas",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "fil",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "les",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "de l'ours",
+      "oci": "de l'ors",
+      "data": [
+        {
+          "text": "de",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "l'ours",
+          "classname": "syllabe",
+          "color": "red",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des ours",
+      "oci": "dels orses",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "ours",
+          "classname": "syllabe",
+          "color": "red",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "de l'oeil",
+      "oci": "de l'uèlh",
+      "data": [
+        {
+          "text": "de",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "l'oeil",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des yeux",
+      "oci": "dels uèlhs",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "yeux",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "de la porte",
+      "oci": "de la pòrta",
+      "data": [
+        {
+          "text": "de",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "la",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "por",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "te",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des portes",
+      "oci": "de las pòrtas",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "por",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "tes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "de l'homme",
+      "oci": "de l'òme",
+      "data": [
+        {
+          "text": "de",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "l'hom",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "me",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des hommes",
+      "oci": "dels òmes",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "hom",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "de la main",
+      "oci": "de la man",
+      "data": [
+        {
+          "text": "de",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "la",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "main",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des mains",
+      "oci": "de las mans",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "mains",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "du bébé",
+      "oci": "del nenet",
+      "data": [
+        {
+          "text": "du",
+          "classname": "syllabe",
+          "color": "orange",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "bé",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": false
+        },
+        {
+          "text": "bé",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des bébés",
+      "oci": "dels nenets",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "bé",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": false
+        },
+        {
+          "text": "bés",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "de la femme",
+      "oci": "de la femna",
+      "data": [
+        {
+          "text": "de",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "la",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "fem",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "me",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "du lit",
+      "oci": "del lièch",
+      "data": [
+        {
+          "text": "du",
+          "classname": "syllabe",
+          "color": "orange",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "lit",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "du roi",
+      "oci": "del rei",
+      "data": [
+        {
+          "text": "du",
+          "classname": "syllabe",
+          "color": "orange",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "roi",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "de l'enfant",
+      "oci": "del mainatge",
+      "data": [
+        {
+          "text": "de",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "l'en",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "fant",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "de la fée",
+      "oci": "de la fada",
+      "data": [
+        {
+          "text": "de",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "la",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "fée",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "du loup",
+      "oci": "del lop",
+      "data": [
+        {
+          "text": "du",
+          "classname": "syllabe",
+          "color": "orange",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "loup",
+          "classname": "syllabe",
+          "color": "red",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "du chevalier",
+      "oci": "del cavalièr",
+      "data": [
+        {
+          "text": "du",
+          "classname": "syllabe",
+          "color": "orange",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "che",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "va",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "li",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "er",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": true
+        }
+      ]
+    },
+    {
+      "fr": "du perroquet",
+      "oci": "del papagai",
+      "data": [
+        {
+          "text": "du",
+          "classname": "syllabe",
+          "color": "orange",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "per",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": false
+        },
+        {
+          "text": "ro",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "quet",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des femmes",
+      "oci": "de las femnas",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "fem",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des lits",
+      "oci": "dels lièches",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "lits",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des rois",
+      "oci": "dels reis",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "rois",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des enfants",
+      "oci": "dels mainatges",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "en",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "fants",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des fées",
+      "oci": "de las fadas",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "fées",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des loups",
+      "oci": "dels lops",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "loups",
+          "classname": "syllabe",
+          "color": "red",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des chevaliers",
+      "oci": "dels cavalièrs",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "che",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "va",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "liers",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des perroquets",
+      "oci": "dels papagais",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "per",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": false
+        },
+        {
+          "text": "ro",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "quets",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "du sac",
+      "oci": "del sac",
+      "data": [
+        {
+          "text": "du",
+          "classname": "syllabe",
+          "color": "orange",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "sac",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des sacs",
+      "oci": "dels sacs",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "sacs",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "du monstre",
+      "oci": "del mostre",
+      "data": [
+        {
+          "text": "du",
+          "classname": "syllabe",
+          "color": "orange",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "mons",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "tre",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des monstres",
+      "oci": "dels mostres",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "mons",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "tres",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "de la baguette",
+      "oci": "de la bagueta",
+      "data": [
+        {
+          "text": "de",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "la",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "ba",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "guet",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": false
+        },
+        {
+          "text": "te",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des baguettes",
+      "oci": "de las baguetas",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "ba",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "guet",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": false
+        },
+        {
+          "text": "tes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "du fantôme",
+      "oci": "del fantauma",
+      "data": [
+        {
+          "text": "du",
+          "classname": "syllabe",
+          "color": "orange",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "fan",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "tô",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "me",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des fantômes",
+      "oci": "dels fantaumas",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "fan",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "tô",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "de la souris",
+      "oci": "de la mirga",
+      "data": [
+        {
+          "text": "de",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "la",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "sou",
+          "classname": "syllabe",
+          "color": "red",
+          "is_border": false
+        },
+        {
+          "text": "ris",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des souris",
+      "oci": "de las mirgas",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "sou",
+          "classname": "syllabe",
+          "color": "red",
+          "is_border": false
+        },
+        {
+          "text": "ris",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "du pied",
+      "oci": "del pè",
+      "data": [
+        {
+          "text": "du",
+          "classname": "syllabe",
+          "color": "orange",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "pied",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des pieds",
+      "oci": "dels pès",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "pieds",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "de la vague",
+      "oci": "de l'èrsa",
+      "data": [
+        {
+          "text": "de",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "la",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "va",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "gue",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des vagues",
+      "oci": "de las èrsas",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "va",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "gues",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "de l'arbre",
+      "oci": "de l'arbre",
+      "data": [
+        {
+          "text": "de",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "l'ar",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "bre",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "de la fleur",
+      "oci": "de la flor",
+      "data": [
+        {
+          "text": "de",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "la",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "fleur",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "de la grotte",
+      "oci": "de la cauna",
+      "data": [
+        {
+          "text": "de",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "la",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "grot",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "te",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "de la forêt",
+      "oci": "del bòsc",
+      "data": [
+        {
+          "text": "de",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "la",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "fo",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "rêt",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "du docteur",
+      "oci": "del doctor",
+      "data": [
+        {
+          "text": "du",
+          "classname": "syllabe",
+          "color": "orange",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "doc",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "teur",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "du bras",
+      "oci": "del braç",
+      "data": [
+        {
+          "text": "du",
+          "classname": "syllabe",
+          "color": "orange",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "bras",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "de la fenêtre",
+      "oci": "de la fenèstra",
+      "data": [
+        {
+          "text": "de",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "la",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "fe",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "nê",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "tre",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "du jardin",
+      "oci": "del jardin",
+      "data": [
+        {
+          "text": "du",
+          "classname": "syllabe",
+          "color": "orange",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "jar",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "din",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "de la jambe",
+      "oci": "de la camba",
+      "data": [
+        {
+          "text": "de",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "la",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "jam",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "be",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "du forêt",
+      "oci": "del bòsc",
+      "data": [
+        {
+          "text": "du",
+          "classname": "syllabe",
+          "color": "orange",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "fo",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "rêt",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des arbres",
+      "oci": "dels arbres",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "ar",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "bres",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des fleurs",
+      "oci": "de las flors",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "fleurs",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des grottes",
+      "oci": "de las caunas",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "grot",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "tes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des forêts",
+      "oci": "dels bòsques",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "fo",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "rêts",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des docteurs",
+      "oci": "dels doctors",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "doc",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "teurs",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des bras",
+      "oci": "dels braces",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "bras",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des fenêtres",
+      "oci": "de las fenèstras",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "fe",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "nê",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "tres",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des jardins",
+      "oci": "dels jardins",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "jar",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "dins",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des jambes",
+      "oci": "de las cambas",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "jam",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "bes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "du poisson",
+      "oci": "del peis",
+      "data": [
+        {
+          "text": "du",
+          "classname": "syllabe",
+          "color": "orange",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "pois",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "son",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des poissons",
+      "oci": "dels peisses",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "pois",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "sons",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "de la table",
+      "oci": "de la taula",
+      "data": [
+        {
+          "text": "de",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "la",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "ta",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "ble",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des tables",
+      "oci": "de las taulas",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "ta",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "bles",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "du soleil",
+      "oci": "del solelh",
+      "data": [
+        {
+          "text": "du",
+          "classname": "syllabe",
+          "color": "orange",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "so",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "leil",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des soleils",
+      "oci": "dels solelhs",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "so",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "leils",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "d'ogre",
+      "oci": "de drac",
+      "data": [
+        {
+          "text": "d'o",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "gre",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "de l'ogre",
+      "oci": "del drac",
+      "data": [
+        {
+          "text": "de",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "l'o",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "gre",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des ogres",
+      "oci": "dels dracs",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "o",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": true
+        },
+        {
+          "text": "gres",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "de la reine",
+      "oci": "de la reina",
+      "data": [
+        {
+          "text": "de",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "la",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "rei",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "ne",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des reines",
+      "oci": "de las reinas",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "rei",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "nes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "du troll",
+      "oci": "del fadet",
+      "data": [
+        {
+          "text": "du",
+          "classname": "syllabe",
+          "color": "orange",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "troll",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des trolls",
+      "oci": "dels fadets",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "trolls",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "de cuisine",
+      "oci": "de cosina",
+      "data": [
+        {
+          "text": "de",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "cui",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "si",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "ne",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "de bois",
+      "oci": "de fusta",
+      "data": [
+        {
+          "text": "de",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "bois",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "de la robe",
+      "oci": "de la rauba",
+      "data": [
+        {
+          "text": "de",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "la",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "ro",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "be",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "de vache",
+      "oci": "de vaca",
+      "data": [
+        {
+          "text": "de",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "va",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "che",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "de coeur",
+      "oci": "de còr",
+      "data": [
+        {
+          "text": "de",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "coeur",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "du bol",
+      "oci": "del bòl",
+      "data": [
+        {
+          "text": "du",
+          "classname": "syllabe",
+          "color": "orange",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "bol",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "du bois",
+      "oci": "de la fusta",
+      "data": [
+        {
+          "text": "du",
+          "classname": "syllabe",
+          "color": "orange",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "bois",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des bols",
+      "oci": "dels bòls",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "bols",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des cuisines",
+      "oci": "de las cosinas",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "cui",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "si",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "nes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des bois",
+      "oci": "dels bòsques",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "bois",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des robes",
+      "oci": "de las raubas",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "ro",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "bes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des nuages",
+      "oci": "dels nívols",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "nua",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "ges",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des salades",
+      "oci": "de las ensaladas",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "sa",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "la",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des colliers",
+      "oci": "dels colars",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "col",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "liers",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des vaches",
+      "oci": "de las vacas",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "va",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "ches",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des coeurs",
+      "oci": "dels còrs",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "coeurs",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "de lla arme",
+      "oci": "de lla arma",
+      "data": [
+        {
+          "text": "de",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "lla",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "ar",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "me",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "de l'île",
+      "oci": "de l'illa",
+      "data": [
+        {
+          "text": "de",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "l'î",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "le",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "du pont",
+      "oci": "del pont",
+      "data": [
+        {
+          "text": "du",
+          "classname": "syllabe",
+          "color": "orange",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "pont",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "du fromage",
+      "oci": "del formatge",
+      "data": [
+        {
+          "text": "du",
+          "classname": "syllabe",
+          "color": "orange",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "fro",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "ma",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "ge",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "du pain",
+      "oci": "del pan",
+      "data": [
+        {
+          "text": "du",
+          "classname": "syllabe",
+          "color": "orange",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "pain",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "du coquillage",
+      "oci": "de la cauquilha",
+      "data": [
+        {
+          "text": "du",
+          "classname": "syllabe",
+          "color": "orange",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "co",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "quil",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "la",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "ge",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des ourses",
+      "oci": "de las orsas",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "our",
+          "classname": "syllabe",
+          "color": "red",
+          "is_border": false
+        },
+        {
+          "text": "ses",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des ponts",
+      "oci": "dels ponts",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "ponts",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des îles",
+      "oci": "de las illas",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "î",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": true
+        },
+        {
+          "text": "les",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des pommes",
+      "oci": "de las pomas",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "pom",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des rivières",
+      "oci": "dels rius",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "ri",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "viè",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "res",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des fromages",
+      "oci": "dels formatges",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "fro",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "ma",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "ges",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des pains",
+      "oci": "dels pans",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "pains",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des coquillages",
+      "oci": "de las cauquilhas",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "co",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "quil",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "la",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "ges",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "de cheval",
+      "oci": "de caval",
+      "data": [
+        {
+          "text": "de",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "che",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "val",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "du cheval",
+      "oci": "del caval",
+      "data": [
+        {
+          "text": "du",
+          "classname": "syllabe",
+          "color": "orange",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "che",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "val",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des chevaux",
+      "oci": "dels cavals",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "che",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "vaux",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "du train",
+      "oci": "del tren",
+      "data": [
+        {
+          "text": "du",
+          "classname": "syllabe",
+          "color": "orange",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "tra",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "in",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des trains",
+      "oci": "dels trens",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "trains",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "du dragon",
+      "oci": "del dragon",
+      "data": [
+        {
+          "text": "du",
+          "classname": "syllabe",
+          "color": "orange",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "dra",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "gon",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des dragons",
+      "oci": "dels dragons",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "dra",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "gons",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "de l'épée",
+      "oci": "de l'espasa",
+      "data": [
+        {
+          "text": "de",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "l'é",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": false
+        },
+        {
+          "text": "pée",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des épées",
+      "oci": "de las espasas",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "é",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": true
+        },
+        {
+          "text": "pées",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "du robot",
+      "oci": "del robòt",
+      "data": [
+        {
+          "text": "du",
+          "classname": "syllabe",
+          "color": "orange",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "ro",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "bot",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des robots",
+      "oci": "dels robòts",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "ro",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "bots",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "du camion",
+      "oci": "del camion",
+      "data": [
+        {
+          "text": "du",
+          "classname": "syllabe",
+          "color": "orange",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "ca",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "mi",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "on",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des camions",
+      "oci": "dels camions",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "ca",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "mions",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "de la musique",
+      "oci": "de la musica",
+      "data": [
+        {
+          "text": "de",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "la",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "mu",
+          "classname": "syllabe",
+          "color": "orange",
+          "is_border": false
+        },
+        {
+          "text": "si",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "que",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des musiques",
+      "oci": "de las musicas",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "mu",
+          "classname": "syllabe",
+          "color": "orange",
+          "is_border": false
+        },
+        {
+          "text": "si",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "ques",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "du livre",
+      "oci": "del libre",
+      "data": [
+        {
+          "text": "du",
+          "classname": "syllabe",
+          "color": "orange",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "li",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "vre",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des livres",
+      "oci": "dels libres",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "li",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "vres",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "de la bouche",
+      "oci": "de la boca",
+      "data": [
+        {
+          "text": "de",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "la",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "bou",
+          "classname": "syllabe",
+          "color": "red",
+          "is_border": false
+        },
+        {
+          "text": "che",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des bouches",
+      "oci": "de las bocas",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "bou",
+          "classname": "syllabe",
+          "color": "red",
+          "is_border": false
+        },
+        {
+          "text": "ches",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "de la soupe",
+      "oci": "de la sopa",
+      "data": [
+        {
+          "text": "de",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "la",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "sou",
+          "classname": "syllabe",
+          "color": "red",
+          "is_border": false
+        },
+        {
+          "text": "pe",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des soupes",
+      "oci": "de las sopas",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "sou",
+          "classname": "syllabe",
+          "color": "red",
+          "is_border": false
+        },
+        {
+          "text": "pes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "du chocolat",
+      "oci": "del chocolat",
+      "data": [
+        {
+          "text": "du",
+          "classname": "syllabe",
+          "color": "orange",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "cho",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "co",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "lat",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des chocolats",
+      "oci": "dels chocolats",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "cho",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "co",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "lats",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "de papillon",
+      "oci": "de parpalhon",
+      "data": [
+        {
+          "text": "de",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "pa",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "pil",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "lon",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des papillons",
+      "oci": "dels parpalhons",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "pa",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "pil",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "lons",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "de l'ourson",
+      "oci": "de l'orson",
+      "data": [
+        {
+          "text": "de",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "l'our",
+          "classname": "syllabe",
+          "color": "red",
+          "is_border": false
+        },
+        {
+          "text": "son",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des oursons",
+      "oci": "dels orsons",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "our",
+          "classname": "syllabe",
+          "color": "red",
+          "is_border": false
+        },
+        {
+          "text": "sons",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "du feu",
+      "oci": "del fuòc",
+      "data": [
+        {
+          "text": "du",
+          "classname": "syllabe",
+          "color": "orange",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "feu",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des feux",
+      "oci": "dels fuòcs",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "feux",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "de la citrouille",
+      "oci": "de la coja",
+      "data": [
+        {
+          "text": "de",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "la",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "ci",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "trouil",
+          "classname": "syllabe",
+          "color": "red",
+          "is_border": false
+        },
+        {
+          "text": "le",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des citrouilles",
+      "oci": "de las cojas",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "ci",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "trouil",
+          "classname": "syllabe",
+          "color": "red",
+          "is_border": false
+        },
+        {
+          "text": "les",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "de la poupée",
+      "oci": "de la monaca",
+      "data": [
+        {
+          "text": "de",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "la",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "pou",
+          "classname": "syllabe",
+          "color": "red",
+          "is_border": false
+        },
+        {
+          "text": "pée",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des poupées",
+      "oci": "de las monacas",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "pou",
+          "classname": "syllabe",
+          "color": "red",
+          "is_border": false
+        },
+        {
+          "text": "pées",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "de poule",
+      "oci": "de galina",
+      "data": [
+        {
+          "text": "de",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "pou",
+          "classname": "syllabe",
+          "color": "red",
+          "is_border": false
+        },
+        {
+          "text": "le",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "de la poule",
+      "oci": "de la galina",
+      "data": [
+        {
+          "text": "de",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "la",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "pou",
+          "classname": "syllabe",
+          "color": "red",
+          "is_border": false
+        },
+        {
+          "text": "le",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des poules",
+      "oci": "de las galinas",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "pou",
+          "classname": "syllabe",
+          "color": "red",
+          "is_border": false
+        },
+        {
+          "text": "les",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "du chaton",
+      "oci": "del gaton",
+      "data": [
+        {
+          "text": "du",
+          "classname": "syllabe",
+          "color": "orange",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "cha",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "ton",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des chatons",
+      "oci": "dels gatons",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "cha",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "tons",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "de la feuille",
+      "oci": "de la fuèlha",
+      "data": [
+        {
+          "text": "de",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "la",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "feuil",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "le",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "du chasseur",
+      "oci": "del caçaire",
+      "data": [
+        {
+          "text": "du",
+          "classname": "syllabe",
+          "color": "orange",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "chas",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "seur",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des chasseurs",
+      "oci": "dels caçaires",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "chas",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "seurs",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "de l'oeuf",
+      "oci": "de l'uòu",
+      "data": [
+        {
+          "text": "de",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "l'oeuf",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "du sapin",
+      "oci": "de l'avet",
+      "data": [
+        {
+          "text": "du",
+          "classname": "syllabe",
+          "color": "orange",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "sa",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "pin",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "de l'étoile",
+      "oci": "de l'estela",
+      "data": [
+        {
+          "text": "de",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "l'é",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": false
+        },
+        {
+          "text": "toi",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "le",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "de la glace",
+      "oci": "del glaç",
+      "data": [
+        {
+          "text": "de",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "la",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "gla",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "ce",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "du ballon",
+      "oci": "del balon",
+      "data": [
+        {
+          "text": "du",
+          "classname": "syllabe",
+          "color": "orange",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "bal",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "lon",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des feuilles",
+      "oci": "de las fuèlhas",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "feuil",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "les",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des oeufs",
+      "oci": "dels uòus",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "oeufs",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des sapins",
+      "oci": "dels avets",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "sa",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "pins",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des étoiles",
+      "oci": "de las estelas",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "é",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": true
+        },
+        {
+          "text": "toi",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "les",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des glaces",
+      "oci": "dels glaces",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "gla",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "ces",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des ballons",
+      "oci": "dels balons",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "bal",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "lons",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "de la noix",
+      "oci": "de la nose",
+      "data": [
+        {
+          "text": "de",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "la",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "noix",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "du cochon",
+      "oci": "del pòrc",
+      "data": [
+        {
+          "text": "du",
+          "classname": "syllabe",
+          "color": "orange",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "co",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "chon",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des noix",
+      "oci": "de las noses",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "noix",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "de la cuiller",
+      "oci": "del culhièr",
+      "data": [
+        {
+          "text": "de",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "la",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "cuil",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "ler",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des cuillers",
+      "oci": "dels culhièrs",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "cuil",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "lers",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "de l'escalier",
+      "oci": "de l'escalièr",
+      "data": [
+        {
+          "text": "de",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "l'es",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "ca",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "li",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "er",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": true
+        }
+      ]
+    },
+    {
+      "fr": "des escaliers",
+      "oci": "dels escalièrs",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "es",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": false
+        },
+        {
+          "text": "ca",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "liers",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "de l'échelle",
+      "oci": "de l'escala",
+      "data": [
+        {
+          "text": "de",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "l'é",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": false
+        },
+        {
+          "text": "chel",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "le",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "des échelles",
+      "oci": "de las escalas",
+      "data": [
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "é",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": true
+        },
+        {
+          "text": "chel",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "les",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ]
+    }
+  ]
+}

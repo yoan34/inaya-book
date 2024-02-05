@@ -50,7 +50,7 @@
         {
           "text": "des",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -404,7 +404,7 @@
         {
           "text": "les",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -629,8 +629,8 @@
       "img": "/home/ybousquet/projects/inaya_book/app/src/img/small-illustrated-page/le carrosse de la princesse.png"
     },
     {
-      "fr": "le chasseur est dans la fôret",
-      "oci": "lo caçaire es dins la fôret",
+      "fr": "le chasseur est dans la forêt",
+      "oci": "lo caçaire es dins lo bòsc",
       "data": [
         {
           "text": "le",
@@ -699,19 +699,19 @@
           "is_border": false
         },
         {
-          "text": "fô",
+          "text": "fo",
           "classname": "syllabe",
           "color": "yellow",
           "is_border": false
         },
         {
-          "text": "ret",
+          "text": "rêt",
           "classname": "syllabe",
           "color": "purple",
           "is_border": false
         }
       ],
-      "img": "/home/ybousquet/projects/inaya_book/app/src/img/small-illustrated-page/le chasseur est dans la fôret.png"
+      "img": "/home/ybousquet/projects/inaya_book/app/src/img/small-illustrated-page/le chasseur est dans la forêt.png"
     },
     {
       "fr": "ce chat a une fleur",

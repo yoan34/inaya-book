@@ -1137,7 +1137,7 @@
         {
           "text": "rêt",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         }
       ]
@@ -2428,6 +2428,60 @@
           "text": "lat",
           "classname": "syllabe",
           "color": "pink",
+          "is_border": false
+        }
+      ]
+    },
+    {
+      "fr": "une chocolatine",
+      "oci": "una chocolatina",
+      "data": [
+        {
+          "text": "u",
+          "classname": "syllabe",
+          "color": "orange",
+          "is_border": true
+        },
+        {
+          "text": "ne",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "cho",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "co",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "la",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "ti",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "ne",
+          "classname": "syllabe",
+          "color": "blue",
           "is_border": false
         }
       ]

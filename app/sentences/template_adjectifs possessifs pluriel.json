@@ -3243,7 +3243,7 @@
         {
           "text": "rêt",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         }
       ]
@@ -3561,7 +3561,7 @@
         {
           "text": "rêt",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         }
       ]
@@ -3855,7 +3855,7 @@
         {
           "text": "rêt",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         }
       ]

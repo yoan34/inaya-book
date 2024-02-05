@@ -58,7 +58,7 @@ class PageGenerator:
         self._write_file(page_name, result)
     
     def create_ilustrate_page(self, sentences, category):
-        template = self.env.get_template("ilustrate_page.html")
+        template = self.env.get_template("ilustrate_page_2.html")
         data = {
             "sentence_left": sentences[0],
             "sentence_right": sentences[1],
@@ -75,6 +75,7 @@ class PageGenerator:
         path = f"book/{self.book_name}"
         if not os.path.exists(path):
             os.makedirs(path)
+            os.makedirs(f"book/result_{self.book_name}")
             
     def _write_file(self, page_name, data):
         with open(page_name, 'w') as f:

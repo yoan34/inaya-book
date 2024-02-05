@@ -1,0 +1,1203 @@
+{
+  "header_words": [],
+  "sentences": [
+    {
+      "fr": "cet arbre a des pommes",
+      "oci": "aquel arbre a de pomas",
+      "data": [
+        {
+          "text": "cet",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "ar",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "bre",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "a",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": true
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "pom",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "mes",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ],
+      "img": "/home/ybousquet/projects/inaya_book/app/src/img/small-illustrated-page/cet arbre a des pommes.png"
+    },
+    {
+      "fr": "la baguette de la fée",
+      "oci": "la bagueta de la fada",
+      "data": [
+        {
+          "text": "la",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "ba",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "guet",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": false
+        },
+        {
+          "text": "te",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "de",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "la",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "fée",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": false
+        }
+      ],
+      "img": "/home/ybousquet/projects/inaya_book/app/src/img/small-illustrated-page/la baguette de la fée.png"
+    },
+    {
+      "fr": "le ballon du garçon",
+      "oci": "lo balon del dròlle",
+      "data": [
+        {
+          "text": "le",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "bal",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "lon",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "du",
+          "classname": "syllabe",
+          "color": "orange",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "garçon",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        }
+      ],
+      "img": "/home/ybousquet/projects/inaya_book/app/src/img/small-illustrated-page/le ballon du garçon.png"
+    },
+    {
+      "fr": "le bateau du pirate",
+      "oci": "lo batèl del pirata",
+      "data": [
+        {
+          "text": "le",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "ba",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "teau",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "du",
+          "classname": "syllabe",
+          "color": "orange",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "pi",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "ra",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "te",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ],
+      "img": "/home/ybousquet/projects/inaya_book/app/src/img/small-illustrated-page/le bateau du pirate.png"
+    },
+    {
+      "fr": "le bébé a sa maman",
+      "oci": "lo nenet a sa mamà",
+      "data": [
+        {
+          "text": "le",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "bé",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": false
+        },
+        {
+          "text": "bé",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "a",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": true
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "sa",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "ma",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "man",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        }
+      ],
+      "img": "/home/ybousquet/projects/inaya_book/app/src/img/small-illustrated-page/le bébé a sa maman.png"
+    },
+    {
+      "fr": "mon bol de soupe",
+      "oci": "mon bòl de sopa",
+      "data": [
+        {
+          "text": "mon",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "bol",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "de",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "sou",
+          "classname": "syllabe",
+          "color": "red",
+          "is_border": false
+        },
+        {
+          "text": "pe",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ],
+      "img": "/home/ybousquet/projects/inaya_book/app/src/img/small-illustrated-page/mon bol de soupe.png"
+    },
+    {
+      "fr": "les cadeaux au pied du sapin",
+      "oci": "los presents al pè de l'avet",
+      "data": [
+        {
+          "text": "les",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "ca",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "deaux",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "au",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": true
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "pied",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "du",
+          "classname": "syllabe",
+          "color": "orange",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "sa",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "pin",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        }
+      ],
+      "img": "/home/ybousquet/projects/inaya_book/app/src/img/small-illustrated-page/les cadeaux au pied du sapin.png"
+    },
+    {
+      "fr": "le camion du roi",
+      "oci": "lo camion del rei",
+      "data": [
+        {
+          "text": "le",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "ca",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "mi",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "on",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "du",
+          "classname": "syllabe",
+          "color": "orange",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "roi",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        }
+      ],
+      "img": "/home/ybousquet/projects/inaya_book/app/src/img/small-illustrated-page/le camion du roi.png"
+    },
+    {
+      "fr": "le carrosse de la princesse",
+      "oci": "la carròça de la princessa",
+      "data": [
+        {
+          "text": "le",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "car",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "ros",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "se",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "de",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "la",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "prin",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "ces",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "se",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ],
+      "img": "/home/ybousquet/projects/inaya_book/app/src/img/small-illustrated-page/le carrosse de la princesse.png"
+    },
+    {
+      "fr": "le chasseur est dans la fôret",
+      "oci": "lo caçaire es dins la fôret",
+      "data": [
+        {
+          "text": "le",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "chas",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "seur",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "est",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": true
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "dans",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "la",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "fô",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "ret",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": false
+        }
+      ],
+      "img": "/home/ybousquet/projects/inaya_book/app/src/img/small-illustrated-page/le chasseur est dans la fôret.png"
+    },
+    {
+      "fr": "ce chat a une fleur",
+      "oci": "aquel gat a una flor",
+      "data": [
+        {
+          "text": "ce",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "chat",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "a",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": true
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "u",
+          "classname": "syllabe",
+          "color": "orange",
+          "is_border": true
+        },
+        {
+          "text": "ne",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "fleur",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ],
+      "img": "/home/ybousquet/projects/inaya_book/app/src/img/small-illustrated-page/ce chat a une fleur.png"
+    },
+    {
+      "fr": "le château du roi",
+      "oci": "lo castèl del rei",
+      "data": [
+        {
+          "text": "le",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "châ",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "teau",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "du",
+          "classname": "syllabe",
+          "color": "orange",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "roi",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        }
+      ],
+      "img": "/home/ybousquet/projects/inaya_book/app/src/img/small-illustrated-page/le château du roi.png"
+    },
+    {
+      "fr": "le cheval du chevalier",
+      "oci": "lo caval del cavalièr",
+      "data": [
+        {
+          "text": "le",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "che",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "val",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "du",
+          "classname": "syllabe",
+          "color": "orange",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "che",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "va",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "li",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "er",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": true
+        }
+      ],
+      "img": "/home/ybousquet/projects/inaya_book/app/src/img/small-illustrated-page/le cheval du chevalier.png"
+    },
+    {
+      "fr": "le chevalier est dans le château",
+      "oci": "lo cavalièr es dins lo castèl",
+      "data": [
+        {
+          "text": "le",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "che",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "va",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "li",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "er",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": true
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "est",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": true
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "dans",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "le",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "châ",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "teau",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        }
+      ],
+      "img": "/home/ybousquet/projects/inaya_book/app/src/img/small-illustrated-page/le chevalier est dans le château.png"
+    },
+    {
+      "fr": "cette sirène est dans la rivière",
+      "oci": "aquela serena es dins lo riu",
+      "data": [
+        {
+          "text": "cet",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": false
+        },
+        {
+          "text": "te",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "si",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "rè",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "ne",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "est",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": true
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "dans",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "la",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "ri",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "viè",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "re",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ],
+      "img": "/home/ybousquet/projects/inaya_book/app/src/img/small-illustrated-page/cette sirène est dans la rivière.png"
+    },
+    {
+      "fr": "le perroquet est sous la table",
+      "oci": "lo papagai es jos la taula",
+      "data": [
+        {
+          "text": "le",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "per",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": false
+        },
+        {
+          "text": "ro",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "quet",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "est",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": true
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "sous",
+          "classname": "syllabe",
+          "color": "red",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "la",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "ta",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "ble",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ],
+      "img": "/home/ybousquet/projects/inaya_book/app/src/img/small-illustrated-page/le perroquet est sous la table.png"
+    }
+  ]
+}

@@ -12,9 +12,12 @@
             size: A4 landscape;
             margin: 0;
         }
+        body {
+              margin: 0;
+          }
         .page {
             width: 1123px; /* Largeur d'une feuille A4 */
-            height: 794px; /* Hauteur d'une feuille A4 */
+            height: 792px; /* Hauteur d'une feuille A4 */
             margin: 0;
             position: relative; /* Nécessaire pour positionner correctement les demi-pages */
             display: flex;
@@ -63,7 +66,7 @@
             margin-left: 5px;
         }
         .container_img {
-            height: 50%;
+            height: auto;
         }
         .img_class {
             height: 100%;
@@ -71,7 +74,6 @@
             object-fit: contain;
         }
         .container_sentence {
-            height: 50%;
             width: 100%;
             display: flex;
         }
@@ -165,7 +167,7 @@
     <div class="page">
         <div class="page-left">
             <div class="container_img">
-                <img class="img_class" alt="/home/ybousquet/projects/inaya_book/app/src/img/small-illustrated-page/le chevalier est dans le château.png" src="/home/ybousquet/projects/inaya_book/app/src/img/small-illustrated-page/le chevalier est dans le château.png" />
+                <img class="img_class" alt="/home/ybousquet/projects/inaya_book/app/src/img/small-illustrated-page/le cheval du chevalier.png" src="/home/ybousquet/projects/inaya_book/app/src/img/small-illustrated-page/le cheval du chevalier.png" />
             </div>
             <div class="container_sentence">
                 <div class="sentence_body--left">
@@ -174,6 +176,31 @@
                     
                         
                             <div class="syllabe syl_blue--inactive">le</div>
+                        
+                    
+                    
+                        
+                            <div class=space></div>
+                        
+                    
+                    
+                        
+                            <div class="syllabe syl_blue--inactive">che</div>
+                        
+                    
+                    
+                        
+                            <div class="syllabe syl_pink--inactive">val</div>
+                        
+                    
+                    
+                        
+                            <div class=space></div>
+                        
+                    
+                    
+                        
+                            <div class="syllabe syl_orange--inactive">du</div>
                         
                     
                     
@@ -201,30 +228,16 @@
                             <div class="syllabe syl_purple--active">er</div>
                         
                     
-                    
-                        
-                            <div class=space></div>
-                        
-                    
-                    
-                        
-                            <div class="syllabe syl_purple--active">est</div>
-                        
-                    
-                    
-                        
-                            <div class=space></div>
-                        
-                    
-                    
-                        
-                            <div class="syllabe syl_pink--inactive">dans</div>
-                        
-                    
-                    
-                        
-                            <div class=space></div>
-                        
+                    </div>
+                    <div class="sentence_oci">lo caval del cavalièr</div>
+                </div>
+            </div>
+            <div class="container_img">
+                <img class="img_class" alt="/home/ybousquet/projects/inaya_book/app/src/img/small-illustrated-page/le cheval du chevalier.png" src="/home/ybousquet/projects/inaya_book/app/src/img/small-illustrated-page/le cheval du chevalier.png" />
+            </div>
+            <div class="container_sentence">
+                <div class="sentence_body--left">
+                    <div class="sentence">
                     
                     
                         
@@ -238,16 +251,51 @@
                     
                     
                         
-                            <div class="syllabe syl_pink--inactive">châ</div>
+                            <div class="syllabe syl_blue--inactive">che</div>
                         
                     
                     
                         
-                            <div class="syllabe syl_yellow--inactive">teau</div>
+                            <div class="syllabe syl_pink--inactive">val</div>
+                        
+                    
+                    
+                        
+                            <div class=space></div>
+                        
+                    
+                    
+                        
+                            <div class="syllabe syl_orange--inactive">du</div>
+                        
+                    
+                    
+                        
+                            <div class=space></div>
+                        
+                    
+                    
+                        
+                            <div class="syllabe syl_blue--inactive">che</div>
+                        
+                    
+                    
+                        
+                            <div class="syllabe syl_pink--inactive">va</div>
+                        
+                    
+                    
+                        
+                            <div class="syllabe syl_green--inactive">li</div>
+                        
+                    
+                    
+                        
+                            <div class="syllabe syl_purple--active">er</div>
                         
                     
                     </div>
-                    <div class="sentence_oci">lo cavalièr es dins lo castèl</div>
+                    <div class="sentence_oci">lo caval del cavalièr</div>
                 </div>
             </div>
         </div>
@@ -268,27 +316,17 @@
                     
                     
                         
-                            <div class="syllabe syl_purple--inactive">per</div>
+                            <div class="syllabe syl_pink--inactive">ca</div>
                         
                     
                     
                         
-                            <div class="syllabe syl_yellow--inactive">ro</div>
+                            <div class="syllabe syl_green--inactive">mi</div>
                         
                     
                     
                         
-                            <div class="syllabe syl_purple--inactive">quet</div>
-                        
-                    
-                    
-                        
-                            <div class=space></div>
-                        
-                    
-                    
-                        
-                            <div class="syllabe syl_purple--active">est</div>
+                            <div class="syllabe syl_yellow--inactive">on</div>
                         
                     
                     
@@ -298,7 +336,7 @@
                     
                     
                         
-                            <div class="syllabe syl_red--inactive">sous</div>
+                            <div class="syllabe syl_orange--inactive">du</div>
                         
                     
                     
@@ -308,30 +346,71 @@
                     
                     
                         
-                            <div class="syllabe syl_pink--inactive">la</div>
-                        
-                    
-                    
-                        
-                            <div class=space></div>
-                        
-                    
-                    
-                        
-                            <div class="syllabe syl_pink--inactive">ta</div>
-                        
-                    
-                    
-                        
-                            <div class="syllabe syl_blue--inactive">ble</div>
+                            <div class="syllabe syl_yellow--inactive">roi</div>
                         
                     
                     </div>
-                    <div class="sentence_oci">lo papagai es jos la taula</div>
+                    <div class="sentence_oci">lo camion del rei</div>
                 </div>
             </div>
             <div class="container_img">
-                <img class="img_class" alt="/home/ybousquet/projects/inaya_book/app/src/img/small-illustrated-page/le perroquet est sous la table.png" src="/home/ybousquet/projects/inaya_book/app/src/img/small-illustrated-page/le perroquet est sous la table.png" />
+                <img class="img_class" alt="/home/ybousquet/projects/inaya_book/app/src/img/small-illustrated-page/le camion du roi.png" src="/home/ybousquet/projects/inaya_book/app/src/img/small-illustrated-page/le camion du roi.png" />
+            </div>
+            <div class="container_sentence">
+                <div class="sentence_body--right">
+                    <div class="sentence">
+                    
+                    
+                        
+                            <div class="syllabe syl_blue--inactive">le</div>
+                        
+                    
+                    
+                        
+                            <div class=space></div>
+                        
+                    
+                    
+                        
+                            <div class="syllabe syl_pink--inactive">ca</div>
+                        
+                    
+                    
+                        
+                            <div class="syllabe syl_green--inactive">mi</div>
+                        
+                    
+                    
+                        
+                            <div class="syllabe syl_yellow--inactive">on</div>
+                        
+                    
+                    
+                        
+                            <div class=space></div>
+                        
+                    
+                    
+                        
+                            <div class="syllabe syl_orange--inactive">du</div>
+                        
+                    
+                    
+                        
+                            <div class=space></div>
+                        
+                    
+                    
+                        
+                            <div class="syllabe syl_yellow--inactive">roi</div>
+                        
+                    
+                    </div>
+                    <div class="sentence_oci">lo camion del rei</div>
+                </div>
+            </div>
+            <div class="container_img">
+                <img class="img_class" alt="/home/ybousquet/projects/inaya_book/app/src/img/small-illustrated-page/le camion du roi.png" src="/home/ybousquet/projects/inaya_book/app/src/img/small-illustrated-page/le camion du roi.png" />
             </div>
           </div>
           

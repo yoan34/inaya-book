@@ -186,8 +186,13 @@ class DataGenerator:
             print(f"QUESTION: {question}")
             self.chat_gpt.generate_img(question)
                  
-    def _get_color(self, syllabe):
-        for homophone in ['aient', 'ait', 'ais', 'ai', 'est', 'et', 'é', 'és', 'ée', 'ées', 'eai', 'er']:
+    def _get_color(self, syllabe, n):
+        print(f"syllabe: {syllabe} et n={n}")
+        if n == 1:
+            if syllabe in ["ces","ses", "tes", "mes", "les", "des", "très"]:
+                print(f"retourne aigue pour syllabe: {syllabe}")
+                return Color.E_AIGU.value
+        for homophone in ['aient', 'ait', 'ais', 'ai', 'est', 'et', 'é', 'és', 'ée', 'ées', 'eai', 'er', 'êt']:
             if homophone in syllabe:
                 return Color.E_AIGU.value
         if 'es' == syllabe:
@@ -263,8 +268,9 @@ class DataGenerator:
             words = sentence.split(' ')
             for i, word in enumerate(words):
                 syllabes = self._get_syllabes(word)
-                for syllabe in self._split_syllabes(syllabes):
-                    color = self._get_color(syllabe)
+                syllabes = self._split_syllabes(syllabes)
+                for syllabe in syllabes:
+                    color = self._get_color(syllabe, len(syllabes))
                     is_border = self._is_an_homophone_or_not(syllabe, n=len(syllabes))
                     item["data"].append({"text": syllabe, "classname": "syllabe", "color": color, "is_border": is_border})
                 if i + 1 != len(words):
@@ -281,9 +287,17 @@ class DataGenerator:
                 first_syl = syllabe.split('er')[0]
                 result += [first_syl, "er"]
                 continue
+            if syllabe.endswith("iers"):
+                first_syl = syllabe.split('ers')[0]
+                result += [first_syl, "ers"]
+                continue
             if syllabe.endswith("ion"):
                 first_syl = syllabe.split('on')[0]
                 result += [first_syl, "on"]
+                continue
+            if syllabe.endswith("ions"):
+                first_syl = syllabe.split('ons')[0]
+                result += [first_syl, "ons"]
                 continue
             result.append(syllabe)
         return result
@@ -341,6 +355,7 @@ class DataGenerator:
 
 if __name__ == "__main__":
     data_generator = DataGenerator(stories_name="fake_stories", dataset_name="dataset_stories")
+
     # quand je lance ce fichier "python3 -m app.models.dataGenerator"
     # je récupère les fichiers templates qui existe déjà et je vais créer tous les templates
     # restant pour avoir les données à jours de toutes les phrases.

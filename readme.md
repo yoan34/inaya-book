@@ -2,6 +2,65 @@ POUR GPT4:
 Je suis en train de créer un livre pour enfant de 4 ans qui permet d'apprendre a lire en découpant les mots en syllabes et associant une couleur par type de syllabe. Les types sont définis de la manière suivante: si une syllabe contient le son "a" c'est une catégorie. Je fais la même opération pour les voyelles suivante: "e", "i", "é", "o", "u", "ou". Maintenant je vais écrire des petites phrases comme par exemple "Le chien a un os", et j'aimerai que tu créer une ilustration au format A5 car je vais mettre l'image sur un fichier HTML qui fera la moitié d'une feuille A4 en mode paysage. Génère moi une image pour la phrase suivante: "Le prince à une épée dorée"
 
 
+CREER UN PDF:
+pdftk *.pdf cat output fichier_final.pdf
+GARDER QUE LES PAGE:
+pdftk fichier_original.pdf cat 2 4 6 8 10 output BOOK.pdf
+
+
+
+SOUS-TEMPLATE POSSIBLE:
+- HEADER
+- NORMAL
+- HOMOPHONE
+- COVER
+- ILLUSTRATED
+- EXT
+- EMPTY
+
+
+
+FACTORISATION DU LIVRE:
+Je veux un input du style:
+{
+  "p_1_3": {
+    "sentence_id": "sentence_1",
+    "number_sentence": 5,
+    "": 1,
+
+
+  },
+  "p_2_4: {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 étapes a faire pour terminer ce projet:
 1 - Créer le template pour générer des images GPT4 et avoir 20-40 occurences par type de phrases, des courtes, moyennes et grande phrase.
 

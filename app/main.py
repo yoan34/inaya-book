@@ -66,13 +66,22 @@ book = {
         "sentences_by_page": 2,
         "sentences_by_header": 0,
     },
-    # "medium_sentences": {
-    #     "page": 4,
-    #     "header": 0,
-    #     "sentences_by_page": 4,
-    #     "sentences_by_header": 0,
-    # },
+    "medium-illustrated-page": {
+        "page": 4,
+        "header": 0,
+        "category": IllustratedPageCategory.MEDIUM_ILLUSTRATED_PAGE,
+        "sentences_by_page": 2,
+        "sentences_by_header": 0,
+    },
+    "big-illustrated-page": {
+        "page": 4,
+        "header": 0,
+        "category": IllustratedPageCategory.BIG_ILLUSTRATED_PAGE,
+        "sentences_by_page": 2,
+        "sentences_by_header": 0,
+    },
 }
+
 
 
 

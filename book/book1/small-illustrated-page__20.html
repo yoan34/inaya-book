@@ -12,9 +12,12 @@
             size: A4 landscape;
             margin: 0;
         }
+        body {
+              margin: 0;
+          }
         .page {
             width: 1123px; /* Largeur d'une feuille A4 */
-            height: 794px; /* Hauteur d'une feuille A4 */
+            height: 792px; /* Hauteur d'une feuille A4 */
             margin: 0;
             position: relative; /* Nécessaire pour positionner correctement les demi-pages */
             display: flex;
@@ -63,7 +66,7 @@
             margin-left: 5px;
         }
         .container_img {
-            height: 50%;
+            height: auto;
         }
         .img_class {
             height: 100%;
@@ -71,7 +74,6 @@
             object-fit: contain;
         }
         .container_sentence {
-            height: 50%;
             width: 100%;
             display: flex;
         }
@@ -165,7 +167,7 @@
     <div class="page">
         <div class="page-left">
             <div class="container_img">
-                <img class="img_class" alt="/home/ybousquet/projects/inaya_book/app/src/img/small-illustrated-page/ce chat a une fleur.png" src="/home/ybousquet/projects/inaya_book/app/src/img/small-illustrated-page/ce chat a une fleur.png" />
+                <img class="img_class" alt="/home/ybousquet/projects/inaya_book/app/src/img/small-illustrated-page/le chasseur est dans la forêt.png" src="/home/ybousquet/projects/inaya_book/app/src/img/small-illustrated-page/le chasseur est dans la forêt.png" />
             </div>
             <div class="container_sentence">
                 <div class="sentence_body--left">
@@ -173,7 +175,7 @@
                     
                     
                         
-                            <div class="syllabe syl_blue--inactive">ce</div>
+                            <div class="syllabe syl_blue--inactive">le</div>
                         
                     
                     
@@ -183,7 +185,12 @@
                     
                     
                         
-                            <div class="syllabe syl_pink--inactive">chat</div>
+                            <div class="syllabe syl_pink--inactive">chas</div>
+                        
+                    
+                    
+                        
+                            <div class="syllabe syl_blue--inactive">seur</div>
                         
                     
                     
@@ -193,7 +200,7 @@
                     
                     
                         
-                            <div class="syllabe syl_pink--active">a</div>
+                            <div class="syllabe syl_purple--active">est</div>
                         
                     
                     
@@ -203,12 +210,7 @@
                     
                     
                         
-                            <div class="syllabe syl_orange--active">u</div>
-                        
-                    
-                    
-                        
-                            <div class="syllabe syl_blue--inactive">ne</div>
+                            <div class="syllabe syl_pink--inactive">dans</div>
                         
                     
                     
@@ -218,11 +220,102 @@
                     
                     
                         
-                            <div class="syllabe syl_blue--inactive">fleur</div>
+                            <div class="syllabe syl_pink--inactive">la</div>
+                        
+                    
+                    
+                        
+                            <div class=space></div>
+                        
+                    
+                    
+                        
+                            <div class="syllabe syl_yellow--inactive">fo</div>
+                        
+                    
+                    
+                        
+                            <div class="syllabe syl_purple--inactive">rêt</div>
                         
                     
                     </div>
-                    <div class="sentence_oci">aquel gat a una flor</div>
+                    <div class="sentence_oci">lo caçaire es dins lo bòsc</div>
+                </div>
+            </div>
+            <div class="container_img">
+                <img class="img_class" alt="/home/ybousquet/projects/inaya_book/app/src/img/small-illustrated-page/le chasseur est dans la forêt.png" src="/home/ybousquet/projects/inaya_book/app/src/img/small-illustrated-page/le chasseur est dans la forêt.png" />
+            </div>
+            <div class="container_sentence">
+                <div class="sentence_body--left">
+                    <div class="sentence">
+                    
+                    
+                        
+                            <div class="syllabe syl_blue--inactive">le</div>
+                        
+                    
+                    
+                        
+                            <div class=space></div>
+                        
+                    
+                    
+                        
+                            <div class="syllabe syl_pink--inactive">chas</div>
+                        
+                    
+                    
+                        
+                            <div class="syllabe syl_blue--inactive">seur</div>
+                        
+                    
+                    
+                        
+                            <div class=space></div>
+                        
+                    
+                    
+                        
+                            <div class="syllabe syl_purple--active">est</div>
+                        
+                    
+                    
+                        
+                            <div class=space></div>
+                        
+                    
+                    
+                        
+                            <div class="syllabe syl_pink--inactive">dans</div>
+                        
+                    
+                    
+                        
+                            <div class=space></div>
+                        
+                    
+                    
+                        
+                            <div class="syllabe syl_pink--inactive">la</div>
+                        
+                    
+                    
+                        
+                            <div class=space></div>
+                        
+                    
+                    
+                        
+                            <div class="syllabe syl_yellow--inactive">fo</div>
+                        
+                    
+                    
+                        
+                            <div class="syllabe syl_purple--inactive">rêt</div>
+                        
+                    
+                    </div>
+                    <div class="sentence_oci">lo caçaire es dins lo bòsc</div>
                 </div>
             </div>
         </div>
@@ -243,22 +336,12 @@
                     
                     
                         
-                            <div class="syllabe syl_purple--inactive">bé</div>
+                            <div class="syllabe syl_pink--inactive">bal</div>
                         
                     
                     
                         
-                            <div class="syllabe syl_purple--inactive">bé</div>
-                        
-                    
-                    
-                        
-                            <div class=space></div>
-                        
-                    
-                    
-                        
-                            <div class="syllabe syl_pink--active">a</div>
+                            <div class="syllabe syl_yellow--inactive">lon</div>
                         
                     
                     
@@ -268,7 +351,7 @@
                     
                     
                         
-                            <div class="syllabe syl_pink--inactive">sa</div>
+                            <div class="syllabe syl_orange--inactive">du</div>
                         
                     
                     
@@ -278,20 +361,66 @@
                     
                     
                         
-                            <div class="syllabe syl_pink--inactive">ma</div>
-                        
-                    
-                    
-                        
-                            <div class="syllabe syl_pink--inactive">man</div>
+                            <div class="syllabe syl_yellow--inactive">garçon</div>
                         
                     
                     </div>
-                    <div class="sentence_oci">lo nenet a sa mamà</div>
+                    <div class="sentence_oci">lo balon del dròlle</div>
                 </div>
             </div>
             <div class="container_img">
-                <img class="img_class" alt="/home/ybousquet/projects/inaya_book/app/src/img/small-illustrated-page/le bébé a sa maman.png" src="/home/ybousquet/projects/inaya_book/app/src/img/small-illustrated-page/le bébé a sa maman.png" />
+                <img class="img_class" alt="/home/ybousquet/projects/inaya_book/app/src/img/small-illustrated-page/le ballon du garçon.png" src="/home/ybousquet/projects/inaya_book/app/src/img/small-illustrated-page/le ballon du garçon.png" />
+            </div>
+            <div class="container_sentence">
+                <div class="sentence_body--right">
+                    <div class="sentence">
+                    
+                    
+                        
+                            <div class="syllabe syl_blue--inactive">le</div>
+                        
+                    
+                    
+                        
+                            <div class=space></div>
+                        
+                    
+                    
+                        
+                            <div class="syllabe syl_pink--inactive">bal</div>
+                        
+                    
+                    
+                        
+                            <div class="syllabe syl_yellow--inactive">lon</div>
+                        
+                    
+                    
+                        
+                            <div class=space></div>
+                        
+                    
+                    
+                        
+                            <div class="syllabe syl_orange--inactive">du</div>
+                        
+                    
+                    
+                        
+                            <div class=space></div>
+                        
+                    
+                    
+                        
+                            <div class="syllabe syl_yellow--inactive">garçon</div>
+                        
+                    
+                    </div>
+                    <div class="sentence_oci">lo balon del dròlle</div>
+                </div>
+            </div>
+            <div class="container_img">
+                <img class="img_class" alt="/home/ybousquet/projects/inaya_book/app/src/img/small-illustrated-page/le ballon du garçon.png" src="/home/ybousquet/projects/inaya_book/app/src/img/small-illustrated-page/le ballon du garçon.png" />
             </div>
           </div>
           

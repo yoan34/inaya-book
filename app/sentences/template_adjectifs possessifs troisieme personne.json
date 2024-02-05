@@ -31,7 +31,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         }
       ]
@@ -279,7 +279,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -309,7 +309,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -345,7 +345,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -381,7 +381,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -411,7 +411,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -447,7 +447,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -483,7 +483,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -573,7 +573,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -633,7 +633,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -687,7 +687,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -735,7 +735,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -789,7 +789,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -849,7 +849,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -903,7 +903,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -957,7 +957,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -1221,7 +1221,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -1251,7 +1251,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -1275,7 +1275,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -1299,7 +1299,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -1329,7 +1329,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -1353,7 +1353,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -1377,7 +1377,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -1399,7 +1399,13 @@
           "is_border": false
         },
         {
-          "text": "liers",
+          "text": "li",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "ers",
           "classname": "syllabe",
           "color": "purple",
           "is_border": false
@@ -1413,7 +1419,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -1659,7 +1665,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -1683,7 +1689,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -1713,7 +1719,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -1749,7 +1755,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -1785,7 +1791,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -1815,7 +1821,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -1839,7 +1845,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -1971,7 +1977,7 @@
         {
           "text": "rêt",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         }
       ]
@@ -2133,7 +2139,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -2163,7 +2169,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -2187,7 +2193,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -2217,7 +2223,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -2235,7 +2241,7 @@
         {
           "text": "rêts",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         }
       ]
@@ -2247,7 +2253,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -2277,7 +2283,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -2301,7 +2307,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -2337,7 +2343,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -2367,7 +2373,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -2571,7 +2577,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -2601,7 +2607,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -2631,7 +2637,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -2661,7 +2667,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -2691,7 +2697,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -2721,7 +2727,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -3015,7 +3021,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -3039,7 +3045,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -3075,7 +3081,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -3099,7 +3105,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -3129,7 +3135,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -3159,7 +3165,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -3195,7 +3201,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -3211,7 +3217,13 @@
           "is_border": false
         },
         {
-          "text": "liers",
+          "text": "li",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "ers",
           "classname": "syllabe",
           "color": "purple",
           "is_border": false
@@ -3225,7 +3237,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -3255,7 +3267,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -3501,7 +3513,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -3531,7 +3543,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -3555,7 +3567,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -3585,7 +3597,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -3615,7 +3627,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -3651,7 +3663,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -3687,7 +3699,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -3711,7 +3723,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -4065,7 +4077,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -4095,7 +4107,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -4119,7 +4131,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -4149,7 +4161,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -4179,7 +4191,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -4209,7 +4221,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -4225,7 +4237,13 @@
           "is_border": false
         },
         {
-          "text": "mions",
+          "text": "mi",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "ons",
           "classname": "syllabe",
           "color": "yellow",
           "is_border": false
@@ -4239,7 +4257,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -4275,7 +4293,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -4305,7 +4323,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -4335,7 +4353,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -4401,7 +4419,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -4473,7 +4491,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -4539,7 +4557,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -4593,7 +4611,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -4653,7 +4671,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -4719,7 +4737,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -4779,7 +4797,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -4839,7 +4857,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -4899,7 +4917,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -4995,7 +5013,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -5025,7 +5043,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -5085,7 +5103,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -5139,7 +5157,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -5205,7 +5223,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -5271,7 +5289,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -5331,7 +5349,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -5385,7 +5403,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -5439,7 +5457,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -5511,7 +5529,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -5533,7 +5551,13 @@
           "is_border": false
         },
         {
-          "text": "liers",
+          "text": "li",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "ers",
           "classname": "syllabe",
           "color": "purple",
           "is_border": false
@@ -5583,7 +5607,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
@@ -5649,7 +5673,7 @@
         {
           "text": "ses",
           "classname": "syllabe",
-          "color": "blue",
+          "color": "purple",
           "is_border": false
         },
         {
