@@ -15,48 +15,8 @@ SOUS-TEMPLATE POSSIBLE:
 - HOMOPHONE
 - COVER
 - ILLUSTRATED
-- EXT
+- FIRST
 - EMPTY
-
-
-
-FACTORISATION DU LIVRE:
-Je veux un input du style:
-{
-  "p_1_3": {
-    "sentence_id": "sentence_1",
-    "number_sentence": 5,
-    "": 1,
-
-
-  },
-  "p_2_4: {
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

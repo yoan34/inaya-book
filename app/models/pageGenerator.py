@@ -1,5 +1,6 @@
 import requests
 import json
+from collections import defaultdict
 import random
 import subprocess
 from pprint import pprint
@@ -42,9 +43,28 @@ class PageGenerator:
         page_name = f"book/{self.book_name}/img__{self.num_page}.html"
         self.num_page += 1
         self._write_file(page_name, result)
+        
+        
+    def get_sentences_and_update(left_page, right_page, sentences: dict):
+        
+        left_sentences = random.sample(sentences[left_page["category"]], left_page["sentence_number"])
+        [sentences[left_page["category"]].remove(left_sentence) for left_sentence in left_sentences]
+        
+        right_sentences = random.sample(sentences[right_page["category"]], right_page["sentence_number"])
+        [sentences[right_page["category"]].remove(right_sentence) for right_sentence in right_sentences]
+        return left_sentences, right_page
            
-    def create_page(self, category: GrammaticalCategory, sentences, header_words, is_header=False):
-        template = self.env.get_template(f"{'header' if is_header else 'normal'}_page.html")
+           
+    def create_page(self, pages, sentences):
+        left_page = pages["left"]
+        right_page = pages["right"]
+        template = self.env.get_template(f"{left_page['template']}_{right_page['template']}_page.html")
+        left_sentences, right_sentences = self.get_sentences_and_update(left_page, right_page, sentences)
+        print(f"LEFT SENTENCE: {left_sentences}")
+        print(f"RIGHT SENTENCE: {right_sentences}")
+        # ICI
+        
+        return
         data = {
             "page": category.name,
             "is_header": is_header,
@@ -117,6 +137,23 @@ class PageGenerator:
                     break
 
     def create_book(self, book):
+        # create dictionnaire pour retrieve all sentences necessary
+        all_sentences = defaultdict(int)
+        for pages in book:
+            left, right = pages["left"], pages["right"]
+            all_sentences[left["category"]] += left["sentence_number"]
+            all_sentences[right["category"]] += right["sentence_number"]
+
+        for key, count in all_sentences.items():
+            sentences, header_words = self._get_sentences_and_header_word(key, n=count)
+            self.count_nouns_to_print(sentences)
+            all_sentences[key] = {"sentences": sentences, "header_words": header_words}
+            
+        
+        for pages in book:
+            self.create_page(pages, all_sentences)
+        
+            
         for key, value in book.items():
             header = value["header"]
             page = value["page"]

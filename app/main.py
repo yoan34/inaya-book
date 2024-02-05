@@ -83,7 +83,34 @@ book = {
 }
 
 
-
+book = [
+    {
+        "id": "1_3",
+        "left": {
+            "template": "header",
+            "category": "articles indefinis",
+            "sentence_number": 0,
+        },
+        "right": {
+            "template": "normal",
+            "category": "articles indefinis",
+            "sentence_number": 9,
+        }
+    },
+        {
+        "id": "2_4",
+        "left": {
+            "template": "normal",
+            "category": "articles indefinis",
+            "sentence_number": 9,
+        },
+        "right": {
+            "template": "normal",
+            "category": "articles indefinis",
+            "sentence_number": 9,
+        }
+    }
+]
 
 pg = PageGenerator(book_name="book1")
 pg.create_book(book)

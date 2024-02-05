@@ -1,4 +1,4 @@
-<mxfile host="Electron" modified="2024-02-05T15:44:28.192Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.0.2 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="auEMv0lkHk5cRLr4jr-X" version="23.0.2" type="device" pages="5">
+<mxfile host="Electron" modified="2024-02-05T15:58:03.733Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.0.2 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="WL5CelYlhzKg9EJzCi7N" version="23.0.2" type="device" pages="5">
   <diagram id="QA40nRi3lfSp5nqiZw6U" name="book">
     <mxGraphModel dx="1456" dy="992" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -735,6 +735,30 @@
         </mxCell>
         <mxCell id="vkGmAnm9QXGL7ZJXVzyD-277" value="big" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="1055" y="685" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vkGmAnm9QXGL7ZJXVzyD-278" value="a" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="165" y="136" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vkGmAnm9QXGL7ZJXVzyD-279" value="e" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="65" y="235" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vkGmAnm9QXGL7ZJXVzyD-280" value="é" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="165" y="235" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vkGmAnm9QXGL7ZJXVzyD-281" value="i" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="60" y="364" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vkGmAnm9QXGL7ZJXVzyD-282" value="o" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="170" y="365" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vkGmAnm9QXGL7ZJXVzyD-283" value="u" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="65" y="465" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vkGmAnm9QXGL7ZJXVzyD-284" value="ou" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="165" y="465" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vkGmAnm9QXGL7ZJXVzyD-286" value="Template différents: cover/homophone&amp;nbsp; -&amp;nbsp; homophone-homophone&amp;nbsp; -&amp;nbsp; empty/normal&amp;nbsp; -&amp;nbsp; header/normal&amp;nbsp; -&amp;nbsp; normal/normal&amp;nbsp; -&amp;nbsp; normal/illustrated&amp;nbsp; -&amp;nbsp; illustrated/normal&amp;nbsp; -&amp;nbsp; illustrated/illustrated&amp;nbsp; -&amp;nbsp; illustrated/empty" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="760" width="1170" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
