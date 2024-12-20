@@ -18,21 +18,14 @@ SOUS-TEMPLATE POSSIBLE:
 - FIRST
 - EMPTY
 
+pour séparer en deux parties les feuilles à imprimer:
+pdftk *.pdf cat output result.pdf
 
+Il faut séparer maintenant le fichier result.pdf en deux resultat, le premier pour imprimer le recto et
+le deuxième pour le recto
+pdftk 1_3.pdf 5_7.pdf 9_11.pdf 13_15.pdf 17_19.pdf 21_23.pdf 25_27.pdf 29_31.pdf 33_35.pdf 37_39.pdf 41_43.pdf 45_47.pdf 49_51.pdf 53_55.pdf 57_59.pdf cat output recto.pdf
 
-
-étapes a faire pour terminer ce projet:
-1 - Créer le template pour générer des images GPT4 et avoir 20-40 occurences par type de phrases, des courtes, moyennes et grande phrase.
-
-2 - Gestion des dossiers: il faut créer tout le HTML dans un dossier comme:
-  book/book_1/html: Ici on met tous les fichiers HTMLs du livre
-  book/book_1/pdf: Ici on peut tous les fichiers PDF formatté et imprimable.
-
-3 - Analyser si c'est possible d'imprimer sur des feuilles épaisse comme du 160g pour pouvoir imprimer de chaque côté. faire des tests.
-
-  LES PAGES HOMOPHONES SERONT FAITE A LA MAIN SUR DRAWIO EST IMPRIMER
-
-
+pdftk 2_4.pdf 6_8.pdf 10_12.pdf 14_16.pdf 18_20.pdf 22_24.pdf 26_28.pdf 30_32.pdf 34_36.pdf 38_40.pdf 42_44.pdf 46_48.pdf 50_52.pdf 54_56.pdf 58_60.pdf cat output verso.pdf
 
     ADJ: adjective, e.g. big, old, green, incomprehensible, first
     ADP: adposition, e.g. in, to, during

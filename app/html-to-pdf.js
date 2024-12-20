@@ -10,7 +10,8 @@ async function createPdfWithHTMLFiles(bookName) {
     const resultPath = `${path.dirname(__dirname)}/book/result_${bookName}`
 
     try {
-        let htmlFiles = ['small-illustrated-page__17.html'];
+        //let htmlFiles = await fs.readdir(bookPath);
+        let htmlFiles = ["img_small__1.html", "img_medium__2.html", "img_big__3.html"]
         console.log(htmlFiles);
         const browser = await puppeteer.launch();
 
@@ -50,4 +51,4 @@ async function createPdfWithHTMLFiles(bookName) {
 const categories = [
   "img",
 ]
-createPdfWithHTMLFiles("book1")
+createPdfWithHTMLFiles("book2")

@@ -18,7 +18,7 @@
             position: relative; /* Nécessaire pour positionner correctement les demi-pages */
             display: flex;
             flex-direction: row;
-            font-size: 36px;
+                        font-size: {{ data["font_size"] if data["font_size"] else '30px' }};
             z-index: 1;
         }
         .container {
@@ -27,12 +27,9 @@
         }
         .container_img {
             display: flex;
-            border: 1px solid #f7f7f7;
-            height: 80px;
-            padding-bottom: 5px;
+            border: 1px solid #e5e2e2;
         }
         .image {
-            height: 50px;
             object-fit: contain;
             align-self: end;
         }
@@ -43,8 +40,8 @@
     <div class="container">
         {% for img in data %}
             {% for i in range(img["quantity"]) %}
-            <div class="container_img" style="width:{{ img['pixel'] }}px">
-                <img class="image" width={{ img['pixel'] }} alt={{ img['name'] }} src={{ img['path'] }} />
+            <div class="container_img" style="width:{{ img['pixel'] }}px;height:{{ img['container_height'] }};padding-bottom: {{ img['img_pb'] }}">
+                <img class="image" width={{ img['pixel'] }} alt={{ img['name'] }} src={{ img['path'] }} style="height: {{ img['img_height'] }}" />
             </div>  
             {% endfor %}
         {% endfor %}

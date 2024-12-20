@@ -1,6 +1,7 @@
 import spacy
 import json
 import os
+from collections import defaultdict
 
 from app.tools.enumerators import WordType
 
@@ -106,6 +107,43 @@ class StoryParser:
             for word, count in words:
                 f.write(f"{word}={count}\n")
                 
+    def create_syllabes_report(self):
+        syllabes = []
+        for lemma, values in self.dataset.items():
+            if "syllabes" in values:
+                syllabes.append(values["syllabes"])
+            for variant, v in values["variants"].items():
+                if "syllabes" in v:
+                    syllabes.append(v["syllabes"])
+        syllabes = [syllabes for c in syllabes for syllabes in c.split('-')]
+        result = defaultdict(int)
+        for syllabe in syllabes:
+            result[syllabe] += 1
+        result = sorted(result.items(), key=lambda x: x[1], reverse=True)
+        file_path = self._build_path(folder='reports', filename=f"syllabes.txt")
+        with open(file_path, "w") as f:
+            for syllabe, count in result:
+                f.write(f"{syllabe}={count}\n")
+                
+    def create_word_by_syllabes_report(self):
+        syllabes = []
+        for lemma, values in self.dataset.items():
+            if "syllabes" in values:
+                syllabes.append(values["syllabes"])
+            for variant, v in values["variants"].items():
+                if "syllabes" in v:
+                    syllabes.append(v["syllabes"])
+        syllabes.sort()
+
+        file_path = self._build_path(folder='reports', filename=f"syllabes.txt")
+        with open(file_path, "w") as f:
+            current = syllabes[0].split('-')[0]
+            for syllabe in syllabes:
+                if current == syllabe.split('-')[0]: 
+                    f.write(f"{syllabe}\n")
+
+                
+                
     def _build_path(self, folder: str, filename: str):
         current_script_path = os.path.dirname(os.path.abspath(__file__))
         parent_directory = os.path.dirname(current_script_path)
@@ -126,8 +164,8 @@ class StoryParser:
         return words
             
 if __name__ == "__main__":
-    story_parser = StoryParser("fake_stories", "fake_dataset")
-    story_parser.parse_nouns_with_image()
+    story_parser = StoryParser("all_stories", "dataset_stories")
+    story_parser.create_word_by_syllabes_report()
     
 
     

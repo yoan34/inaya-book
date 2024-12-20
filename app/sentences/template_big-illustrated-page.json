@@ -1118,6 +1118,1630 @@
         }
       ],
       "img": "/home/ybousquet/projects/inaya_book/app/src/img/big-illustrated-page/toutes les feuilles de l'arbre sont tombées.png"
+    },
+    {
+      "fr": "le chevalier trouve une épée magique sous le grand arbre",
+      "oci": "lo cavalièr tròba una espasa magica jos l'arbre grand",
+      "data": [
+        {
+          "text": "le",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "che",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "va",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "li",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "er",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": true
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "trou",
+          "classname": "syllabe",
+          "color": "red",
+          "is_border": false
+        },
+        {
+          "text": "ve",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "u",
+          "classname": "syllabe",
+          "color": "orange",
+          "is_border": true
+        },
+        {
+          "text": "ne",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "é",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": true
+        },
+        {
+          "text": "pée",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "ma",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "gi",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "que",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "sous",
+          "classname": "syllabe",
+          "color": "red",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "le",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "grand",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "ar",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "bre",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ],
+      "img": "/home/ybousquet/projects/inaya_book/app/src/img/big-illustrated-page/le chevalier trouve une épée magique sous le grand arbre.png"
+    },
+    {
+      "fr": "la princesse partage sa glace au chocolat avec l'ours",
+      "oci": "la princessa parteja son glaç al chocolat amb l'ors",
+      "data": [
+        {
+          "text": "la",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "prin",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "ces",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "se",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "par",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "ta",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "ge",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "sa",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "gla",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "ce",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "au",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": true
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "cho",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "co",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "lat",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "a",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": true
+        },
+        {
+          "text": "vec",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "l'ours",
+          "classname": "syllabe",
+          "color": "red",
+          "is_border": false
+        }
+      ],
+      "img": "/home/ybousquet/projects/inaya_book/app/src/img/big-illustrated-page/la princesse partage sa glace au chocolat avec l'ours.png"
+    },
+    {
+      "fr": "un fantôme habite dans la vieille grotte près de la rivière",
+      "oci": "un fantauma abita dins la vièlha cauna près del riu",
+      "data": [
+        {
+          "text": "un",
+          "classname": "syllabe",
+          "color": "orange",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "fan",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "tô",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "me",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "ha",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": true
+        },
+        {
+          "text": "bi",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "te",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "dans",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "la",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "vieil",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "le",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "grot",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "te",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "près",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "de",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "la",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "ri",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "viè",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "re",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ],
+      "img": "/home/ybousquet/projects/inaya_book/app/src/img/big-illustrated-page/un fantôme habite dans la vieille grotte près de la rivière.png"
+    },
+    {
+      "fr": "le dragon garde un trésor caché dans le château sombre",
+      "oci": "lo dragon garda un tresaur amagat dins lo castèl escur",
+      "data": [
+        {
+          "text": "le",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "dra",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "gon",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "gar",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "de",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "un",
+          "classname": "syllabe",
+          "color": "orange",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "tré",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": false
+        },
+        {
+          "text": "sor",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "ca",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "ché",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "dans",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "le",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "châ",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "teau",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "som",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "bre",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ],
+      "img": "/home/ybousquet/projects/inaya_book/app/src/img/big-illustrated-page/le dragon garde un trésor caché dans le château sombre.png"
+    },
+    {
+      "fr": "un petit chat joue avec une balle de laine sur la table",
+      "oci": "un gat pichon jòga amb una bala de lana sus la taula",
+      "data": [
+        {
+          "text": "un",
+          "classname": "syllabe",
+          "color": "orange",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "pe",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "tit",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "chat",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "joue",
+          "classname": "syllabe",
+          "color": "red",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "a",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": true
+        },
+        {
+          "text": "vec",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "u",
+          "classname": "syllabe",
+          "color": "orange",
+          "is_border": true
+        },
+        {
+          "text": "ne",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "bal",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "le",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "de",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "lai",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": false
+        },
+        {
+          "text": "ne",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "sur",
+          "classname": "syllabe",
+          "color": "orange",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "la",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "ta",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "ble",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ],
+      "img": "/home/ybousquet/projects/inaya_book/app/src/img/big-illustrated-page/un petit chat joue avec une balle de laine sur la table.png"
+    },
+    {
+      "fr": "Le soleil brille sur la forêt où le loup chante avec les oiseaux",
+      "oci": "Lo solelh lusís sul bòsc ont lo lop canta amb los aucèls",
+      "data": [
+        {
+          "text": "le",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "so",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "leil",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "bril",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "le",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "sur",
+          "classname": "syllabe",
+          "color": "orange",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "la",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "fo",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "rêt",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "où",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "le",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "loup",
+          "classname": "syllabe",
+          "color": "red",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "chan",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "te",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "a",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": true
+        },
+        {
+          "text": "vec",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "les",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "oi",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "seaux",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        }
+      ],
+      "img": "/home/ybousquet/projects/inaya_book/app/src/img/big-illustrated-page/Le soleil brille sur la forêt où le loup chante avec les oiseaux.png"
+    },
+    {
+      "fr": "la princesse porte une robe dans la forêt",
+      "oci": "la princessa pòrta una rauba dins lo bòsc",
+      "data": [
+        {
+          "text": "la",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "prin",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "ces",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "se",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "por",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "te",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "u",
+          "classname": "syllabe",
+          "color": "orange",
+          "is_border": true
+        },
+        {
+          "text": "ne",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "ro",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "be",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "dans",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "la",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "fo",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "rêt",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": false
+        }
+      ],
+      "img": "/home/ybousquet/projects/inaya_book/app/src/img/big-illustrated-page/la princesse porte une robe dans la forêt.png"
+    },
+    {
+      "fr": "notre souris mange une noix et du chocolat",
+      "oci": "nòstra mirga manja una nose e del chocolat",
+      "data": [
+        {
+          "text": "no",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "tre",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "sou",
+          "classname": "syllabe",
+          "color": "red",
+          "is_border": false
+        },
+        {
+          "text": "ris",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "man",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "ge",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "u",
+          "classname": "syllabe",
+          "color": "orange",
+          "is_border": true
+        },
+        {
+          "text": "ne",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "noix",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "et",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": true
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "du",
+          "classname": "syllabe",
+          "color": "orange",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "cho",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "co",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "lat",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        }
+      ],
+      "img": "/home/ybousquet/projects/inaya_book/app/src/img/big-illustrated-page/notre souris mange une noix et du chocolat.png"
+    },
+    {
+      "fr": "cet ogre est sur un pont avec une cuiller géante à la main",
+      "oci": "aquel drac es sus un pont amb un culhièr gigant a man",
+      "data": [
+        {
+          "text": "cet",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "o",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": true
+        },
+        {
+          "text": "gre",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "est",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": true
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "sur",
+          "classname": "syllabe",
+          "color": "orange",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "un",
+          "classname": "syllabe",
+          "color": "orange",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "pont",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "a",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": true
+        },
+        {
+          "text": "vec",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "u",
+          "classname": "syllabe",
+          "color": "orange",
+          "is_border": true
+        },
+        {
+          "text": "ne",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "cuil",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "ler",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "géan",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": false
+        },
+        {
+          "text": "te",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "à",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": true
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "la",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "main",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": false
+        }
+      ],
+      "img": "/home/ybousquet/projects/inaya_book/app/src/img/big-illustrated-page/cet ogre est sur un pont avec une cuiller géante à la main.png"
+    },
+    {
+      "fr": "le troll raconte des histoires autour du feu",
+      "oci": "lo fadet conta d'istòrias a l'entorn del fuòc",
+      "data": [
+        {
+          "text": "le",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "troll",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "ra",
+          "classname": "syllabe",
+          "color": "pink",
+          "is_border": false
+        },
+        {
+          "text": "con",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "te",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "des",
+          "classname": "syllabe",
+          "color": "purple",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "his",
+          "classname": "syllabe",
+          "color": "green",
+          "is_border": false
+        },
+        {
+          "text": "toi",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": false
+        },
+        {
+          "text": "res",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "au",
+          "classname": "syllabe",
+          "color": "yellow",
+          "is_border": true
+        },
+        {
+          "text": "tour",
+          "classname": "syllabe",
+          "color": "red",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "du",
+          "classname": "syllabe",
+          "color": "orange",
+          "is_border": false
+        },
+        {
+          "text": "",
+          "classname": "space",
+          "color": "white",
+          "is_border": false
+        },
+        {
+          "text": "feu",
+          "classname": "syllabe",
+          "color": "blue",
+          "is_border": false
+        }
+      ],
+      "img": "/home/ybousquet/projects/inaya_book/app/src/img/big-illustrated-page/le troll raconte des histoires autour du feu.png"
     }
   ]
 }

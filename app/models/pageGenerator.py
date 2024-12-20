@@ -20,61 +20,121 @@ class PageGenerator:
         project_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
         self.font_path = os.path.join(project_path, 'src/fonts/static/Karla-Regular.ttf')
         self.env = Environment(loader=FileSystemLoader(os.path.join(project_path, "templates")))
-        self.nouns_to_print = {}
+        self.nouns_to_print = {"small": {}, "medium": {}, "big": {}}
         self._create_book_folder()
         
     def create_page_img(self):
         template = self.env.get_template("page_img.html")
+
         abs_path = os.path.dirname(os.path.dirname(__file__))
-        data = []
-        for noun, quantity in self.nouns_to_print.items():
-            data.append({
-                "name": noun,
-                 "path": f"{abs_path}/src/img/nouns/{noun}.png",
-                 "pixel": len(noun)*18,
-                 "quantity": quantity,
-                })
-        print(f"IMG: {abs_path}/book/pages/img/html")
-        result_path = f"{abs_path}/book/pages/img/html"
-        result = template.render(data=data, font_path=self.font_path)
+
+        for category, item in self.nouns_to_print.items():
+            data = []
+            for noun, quantity in item.items():
+                if category == "small":
+                    container_height = "65px"
+                    img_height = "40px"
+                    img_width = len(noun)*15
+                    img_pb = "5px"
+                if category == "medium":
+                    container_height = "56px"
+                    img_height = "36px"
+                    img_width = len(noun)*14
+                    img_pb = "3px"
+                if category == "big":
+                    container_height = "52px"
+                    img_height = "34px"
+                    img_width = len(noun)*13
+                    img_pb = "0px"
+                data.append({
+                    "name": noun,
+                    "path": f"{abs_path}/src/img/nouns/{noun}.png",
+                    "pixel": img_width,
+                    "container_height": container_height,
+                    "img_height": img_height,
+                    "img_pb": img_pb,
+                    "quantity": quantity,
+                    })
+            print(f"IMG: {abs_path}/book/pages/img/html")
+            result = template.render(data=data, font_path=self.font_path)
+                    
+            page_name = f"book/{self.book_name}/img_{category}__{self.num_page}.html"
+            self.num_page += 1
+            self._write_file(page_name, result)
         
-        num = self._get_num(result_path)
-                
-        page_name = f"book/{self.book_name}/img__{self.num_page}.html"
-        self.num_page += 1
-        self._write_file(page_name, result)
         
-        
-    def get_sentences_and_update(left_page, right_page, sentences: dict):
-        
-        left_sentences = random.sample(sentences[left_page["category"]], left_page["sentence_number"])
-        [sentences[left_page["category"]].remove(left_sentence) for left_sentence in left_sentences]
-        
-        right_sentences = random.sample(sentences[right_page["category"]], right_page["sentence_number"])
-        [sentences[right_page["category"]].remove(right_sentence) for right_sentence in right_sentences]
-        return left_sentences, right_page
+    def get_sentences_and_update(self, left_page, right_page, sentences: dict):
+        left_sentences, right_sentences = [], []
+        if left_page["category"]:
+            left_sentences = random.sample(sentences[left_page["category"]]["sentences"], left_page["sentence_number"])
+            [sentences[left_page["category"]]["sentences"].remove(left_sentence) for left_sentence in left_sentences]
+        if right_page["category"]:
+            right_sentences = random.sample(sentences[right_page["category"]]["sentences"], right_page["sentence_number"])
+            [sentences[right_page["category"]]["sentences"].remove(right_sentence) for right_sentence in right_sentences]
+        return left_sentences, right_sentences
+    
+
+    def get_header_words(self, left_page, right_page, sentences: dict):
+        left_header_words, right_header_words = [], []
+        if left_page["category"]:
+            left_header_words = sentences[left_page["category"]]["header_words"]
+        if right_page["category"]:
+            right_header_words = sentences[right_page["category"]]["header_words"]
+        return left_header_words, right_header_words
            
            
     def create_page(self, pages, sentences):
         left_page = pages["left"]
         right_page = pages["right"]
-        template = self.env.get_template(f"{left_page['template']}_{right_page['template']}_page.html")
+        if "special_template" in pages:
+            template = self.env.get_template(f"specific/{pages['special_template']}_page.html")
+        else: 
+            template = self.env.get_template(f"{left_page['template']}_{right_page['template']}_page.html")
+
         left_sentences, right_sentences = self.get_sentences_and_update(left_page, right_page, sentences)
-        print(f"LEFT SENTENCE: {left_sentences}")
-        print(f"RIGHT SENTENCE: {right_sentences}")
-        # ICI
+        left_header_words, right_header_words = self.get_header_words(left_page, right_page, sentences)
         
-        return
+        print(left_sentences)
+
         data = {
-            "page": category.name,
-            "is_header": is_header,
-            "headers": header_words,
-            "sentences_left": sentences[10:],
-            "sentences_right": sentences[:10]
+            "sentences_left": left_sentences,
+            "left_header_words": left_header_words,
+            "sentences_right": right_sentences,
+            "right_header_words": right_header_words
         }
+        img_path = f"{os.path.dirname(os.path.dirname(__file__))}/src/img"
+        if "with_img" in left_page:
+            data["left_page_img"] = f"{img_path}/{left_page['category']}"
+            if "small" in left_page["category"]:
+                data["width_img"] = "75%"
+                data["font_size"] = "30px"
+                data["word_margin"] = "25px"
+            if "medium" in left_page["category"]:
+                data["width_img"] = "65%"
+                data["font_size"] = "28px"
+                data["word_margin"] = "21px"
+            if "big" in left_page["category"]:
+                data["width_img"] = "55%"
+                data["font_size"] = "26px"
+                data["word_margin"] = "17px"
+            
+        if "with_img" in right_page:
+            data["right_page_img"] = f"{img_path}/{right_page['category']}"
+            if "small" in right_page["category"]:
+                data["width_img"] = "75%"
+                data["font_size"] = "30px"
+                data["word_margin"] = "25px"
+            if "medium" in right_page["category"]:
+                data["width_img"] = "65%"
+                data["font_size"] = "28px"
+                data["word_margin"] = "21px"
+            if "big" in right_page["category"]:
+                data["width_img"] = "55%"
+                data["font_size"] = "26px"
+                data["word_margin"] = "17px"
+        
         result = template.render(data=data, font_path=self.font_path)
-        page_name = f"book/{self.book_name}/{category.fr.lower().replace(' ', '_')}__{self.num_page}.html"
-        self.num_page += 1
+        page_name = f"book/{self.book_name}/{pages['id']}.html"
         self._write_file(page_name, result)
     
     def create_ilustrate_page(self, sentences, category):
@@ -102,7 +162,6 @@ class PageGenerator:
             f.write(data)
             print(f"Page create {page_name} successfully")
             
-    
     def _get_num(self, path):
         if not os.path.exists(path):
             num = 1
@@ -124,16 +183,27 @@ class PageGenerator:
             header_words.append(header_word)
         return random.sample(sentences, n), header_words
     
-    def count_nouns_to_print(self, sentences):
+    def count_nouns_to_print(self, sentences, key):
+        print(key)
         nouns = [noun.split('.')[0] for noun in os.listdir("app/src/img/nouns")]
         nouns.sort(key=len, reverse=True)
         
         for sentence in sentences:
             for noun in nouns:
                 if noun in sentence['fr']:
-                    if noun not in self.nouns_to_print:
-                        self.nouns_to_print[noun] = 0
-                    self.nouns_to_print[noun] += 1
+                    if "medium" in key:
+                        if noun not in self.nouns_to_print["medium"]:
+                            self.nouns_to_print["medium"][noun] = 0
+                        self.nouns_to_print["medium"][noun] += 1
+                        break
+                    if "big" in key:
+                        if noun not in self.nouns_to_print["big"]:
+                            self.nouns_to_print["big"][noun] = 0
+                        self.nouns_to_print["big"][noun] += 1
+                        break
+                    if noun not in self.nouns_to_print["small"]:
+                        self.nouns_to_print["small"][noun] = 0
+                    self.nouns_to_print["small"][noun] += 1
                     break
 
     def create_book(self, book):
@@ -141,51 +211,19 @@ class PageGenerator:
         all_sentences = defaultdict(int)
         for pages in book:
             left, right = pages["left"], pages["right"]
-            all_sentences[left["category"]] += left["sentence_number"]
-            all_sentences[right["category"]] += right["sentence_number"]
+            if left["category"]:
+                all_sentences[left["category"]] += left["sentence_number"]
+            if right["category"]:
+                all_sentences[right["category"]] += right["sentence_number"]
 
         for key, count in all_sentences.items():
+            print(key, count)
             sentences, header_words = self._get_sentences_and_header_word(key, n=count)
-            self.count_nouns_to_print(sentences)
+            self.count_nouns_to_print(sentences, key)
             all_sentences[key] = {"sentences": sentences, "header_words": header_words}
             
-        
         for pages in book:
             self.create_page(pages, all_sentences)
-        
-            
-        for key, value in book.items():
-            header = value["header"]
-            page = value["page"]
-            category = value["category"]
-            sentences_by_page = value["sentences_by_page"]
-            sentences_by_header = value["sentences_by_header"]
-            total_sentences = header*sentences_by_header + page * sentences_by_page
-            
-            if key in [value.fr.lower() for value in GrammaticalCategory]:
-                sentences, header_words = self._get_sentences_and_header_word(key, n=total_sentences)
-                
-                for i in range(header):
-                    header_sentences = sentences[(i*sentences_by_header):((i+1)*sentences_by_header)]
-                    self.count_nouns_to_print(header_sentences)
-                    print(f"HEADER {i+1}: {[sentence['fr'] for sentence in header_sentences]}")
-                    self.create_page(category, header_sentences, header_words, is_header=True)
-                sentences = sentences[(sentences_by_header*header):]
-                for _ in range(page):
-                    page_sentences = sentences[i*sentences_by_page:(i+1)*sentences_by_page]
-                    self.count_nouns_to_print(page_sentences)
-                    print(f"PAGE {i+1}: {[sentence['fr'] for sentence in page_sentences]}")
-                    self.create_page(category, page_sentences, header_words)
-            
-            if key in [illustrated_page.value for illustrated_page in IllustratedPageCategory]:
-                sentences, _ = self._get_sentences_and_header_word(key, n=total_sentences)
-                for i in range(page):
-                    random_sentences = random.sample(sentences, 2)
-                    self.count_nouns_to_print(random_sentences)
-                    print(f"ILUSTRATED PAGE {i+1}: {[sentence['fr'] for sentence in random_sentences]}")
-                    [sentences.remove(random_sentence) for random_sentence in random_sentences]
-                    # JE DOIS CONTINUER DE CREER LA FONCTION JUSTE EN DESSOUS
-                    self.create_ilustrate_page(random_sentences, key)
         
         self.create_page_img()
 
